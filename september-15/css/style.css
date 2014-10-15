@@ -1,0 +1,77 @@
+body{
+  Font-family: Concourse t3;
+  Font-size: 1.5em;
+  Background-image: url("http://reserve.louie.land/Wallpapers/Her/OS1%20-%20iPad.jpg");
+  background-size: 100%;
+  /*I noticed that my image doesn't resize vertically, only horizontally.*/
+  Background-repeat: no-repeat ; 
+  background-attachment: fixed;
+}
+
+#date {
+  text-align: right;
+}
+
+#Aim {  
+  Padding-top: 20px;
+  Position: relative;
+  Top: -50px;
+  Color: #FDDBBA;
+  Font-size: 1.7em;
+
+}
+
+#DoNow {
+  Position: relative;
+  Top: 60px;
+/*  I added a comment in my CSS, too! What do you notice? */
+  Color: #FDDBBA;
+  Border-radius: 7px;
+  Font-size: 1em;
+
+}
+
+#minilesson {
+  Font-family: Concourse t3;
+  position: relative;
+  top: 250px;
+  font-size: 1.3em;
+  Color: #FDDBBA;
+  background: #D74F35;
+}
+
+
+
+b {
+  Font-size: 1.5em;
+}
+
+code {
+  background:rgba(255,255,255,0.5);
+  color: white;
+  Padding: 4px;
+  Border-radius: 10px;
+}
+
+#iterate{
+  Font-family: Concourse c4;
+  text-align: center;
+  padding-top: 50%;
+}
+
+#iterate h1{
+  font-size: 6em;
+  color: #FDDBBA;
+}
+
+#iterate p{
+  position: relative;
+  font-size: 1.9em;
+  font-weight: bold;
+  color: #fddbba;
+  Padding: 4px;
+  Border-radius: 7px;
+  Padding-bottom: 50px;
+
+  
+}
