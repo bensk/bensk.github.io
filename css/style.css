@@ -20,3 +20,7 @@ ol{
 b{
   color: red;
 }
+
+#lesson {
+	border: 1px groove black;
+}
