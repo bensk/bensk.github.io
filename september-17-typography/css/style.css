@@ -1,0 +1,95 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic|Arvo:400,700,400italic|Lobster|Indie+Flower);
+
+
+/* Small screens (default) */
+html { font-size: 100%; }
+ 
+/* Medium screens (640px) */
+@media (min-width: 40rem) { 
+  html { font-size: 120%; }
+}
+ 
+/* Large screens (1024px) */
+@media (min-width: 64rem) { 
+  html { font-size: 150%; }
+}
+
+#Aim {
+  font-family: 'Lato', sans-serif;
+  Font-weight: 700;
+  Font-size: 2em;
+  margin: 5% ;
+
+}
+
+#DoNow {
+  Font-family: 'Lato';
+  margin: 5% ;
+}
+
+#type {
+  padding-top: 100px;
+  width=100%;
+}
+
+#minilesson {
+  Position: relative;
+  Top: -90px;
+  font-family: "Source Sans Pro";
+  Color: white;
+  Text-align: center;
+  Background-image: url("http://www.global-type.com/wp-content/uploads/2013/09/typesetting-blocks.jpg");
+  
+}
+
+#minilesson h1 {
+  font-size: 16vw;
+  background-color: rgba(255,255,255,0.3);
+  
+}
+
+#minilesson p {
+  Font-size: 10vw;
+  Font-weight: 800;
+  text-shadow: 2px 2px #ff0000;
+}
+
+#awful {
+  Font-family: "Marker Felt";
+  Font-size: 90px;
+}
+
+#serif {
+  background-color: rgba(255,255,255,0.3);
+  Font-family: serif;
+  Font-size: 150px;
+  Text-align: center;
+  text-shadow: 2px 2px #40DBE5;
+}
+
+#sans-serif {
+  background-color: rgba(255,255,255,0.3);
+  Font-family: sans-serif;
+  Font-size: 150px;
+  Text-align: center;
+  text-shadow: 2px 2px #40DBE5;  
+}
+
+#fonts {
+  Color: white;
+  
+  Background-image: Url("http://www.global-type.com/wp-content/uploads/2013/09/typesetting-blocks.jpg");
+}
+
+#iterate {
+  Font-family: "Lobster";
+  Text-align: center;
+}
+
+#iterate h1{
+  Font-size: 6em;
+}
+
+#iterate p {
+  Font-size: 3em;
+}
