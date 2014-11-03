@@ -2,9 +2,11 @@
 
 h1 {
 	width: auto;
+/* 	going to the edges looks awful... */
 	margin-left:5%;
 	margin-right:5%;
 	font-family: Concourse c4;
+/* 	fonts from Overcast */
 	font-size: 72px;
 	text-align: center;
 	color: white;
@@ -19,6 +21,7 @@ h2 {
 	font-size: 48px;
 	text-align: center;
 	color: #22C28E;
+/* 	These are the colors from Castro */
 }
 
 #checklist {
