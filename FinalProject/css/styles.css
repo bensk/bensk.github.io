@@ -10,7 +10,7 @@ h1 {
 	font-size: 72px;
 	text-align: center;
 	color: white;
-	background: #FA7E28;
+	background: #77D5E7;
 	border-radius: 4px 4px 4px 4px;
 	box-shadow: 1px 1px 8px black;
 	
@@ -20,7 +20,7 @@ h2 {
 	font-family: concourse c3;
 	font-size: 48px;
 	text-align: center;
-	color: #FA7E28;
+	color: #77D5E7;
 /* 	These are the colors from Castro */
 }
 
@@ -39,5 +39,6 @@ h2 {
 }
 
 code{
-	color: #FA7E28;
+	color: #77D5E7;
+	/* font-family: Source Code Pro; */
 }
