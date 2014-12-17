@@ -1,5 +1,10 @@
 body{
   text-align: center;
-  font-family: Courier;
+  font-family: Ohm;
   font-size: 50px;
+}
+
+@font-face {
+    font-family: Ohm;
+    src: url("223sk.github.io/ohmweb-bold.ttf");
 }
