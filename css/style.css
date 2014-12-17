@@ -1,11 +1,11 @@
 @font-face {
     font-family: ConcourseT3;
     src: url(223sk.github.io/fonts/Concourse T3 Regular.otf);
-}
-
+    }
+    
 @font-face {
-	font-family: ConcourseC4;
-	src: url(223sk.github.io/fonts/Concourse C4 Regular.otf)
+    font-family: Ohm;
+    src: url("http://223sk.github.io/fonts/ohmweb-bold.ttf");
 }
 
 body{
@@ -14,11 +14,12 @@ body{
 }
 
 h1{
-	font-family: ConcourseC4;
-  font-size: 36px;
+	font-family: Ohm;
+  font-size: 72px;
 }
 h2{
   font-size: 2em;
+  font-weight: bold;
 }
 h3{
   font-size: 2em;
