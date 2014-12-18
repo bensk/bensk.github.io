@@ -15,8 +15,9 @@ body{
 
 h1{
 	font-family: Ohm;
-  font-size: 72px;
+  font-size: 120px;
   text-align: center;
+  color: #FF4396;
 }
 h2{
   font-size: 2em;
