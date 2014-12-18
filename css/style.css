@@ -36,6 +36,10 @@ b{
   color: red;
 }
 
+/*
 .lesson{
 	border: 1px dashed black;
 }
+*/
+
+/* Border style isn't showing up, removing it for now */
