@@ -36,6 +36,10 @@ b{
   color: red;
 }
 
+#lessons{
+	border-top: 50%;
+}
+
 /*
 .lesson{
 	border: 1px dashed black;
