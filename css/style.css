@@ -24,6 +24,7 @@ h1{
   text-align: center;
   color: #FF4396;
 }
+
 h2{
   font-family: ConcourseC4;
   font-size: 2em;
@@ -42,6 +43,10 @@ b{
   color: red;
 }
 
+.jumbotron{
+	text-align: center;
+	text-shadow: none;
+}
 
 /*
 .lesson{
