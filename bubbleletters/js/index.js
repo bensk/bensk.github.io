@@ -8,7 +8,7 @@ var myName = "JavaScript!";
 var letterColors=[red,orange,green,blue,purple]
 if (1>0){
     bubbleShape="circle";
-} else {
+} else{
     bubbleShape="square";
 }
 
