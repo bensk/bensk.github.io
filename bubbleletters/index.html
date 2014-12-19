@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Bubble Letters</title>
+
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+
+</head>
+
+<body>
+
+  <html>
+  <head>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="http://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/alphabet.js"></script>
+  </head>
+  <body>
+    <canvas style="margin-left: 5%; margin-right: 5%" id="myCanvas"></canvas>
+    <script type="text/javascript" src="http://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/bubbles.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
+
+  <script src="js/index.js"></script>
+  
+  <div style="margin-left: 15%; margin-right: 15%;text-align:left;color:#f6f7ee; background-color:#111c2a; border:0px solid black; border-radius: 3px 3px 3px 3px; padding:0.5em 1em 0.5em 1em; overflow:auto;font-size:1.2em; font-family:monospace; ">var</span> red <span style="color:#f82939;">=</span> [<span style="color:#6f4ebc;">0</span>, <span style="color:#63cce3;">Math</span>.<span style="color:#3beb2a;">floor</span>(<span style="color:#63cce3;">Math</span>.<span style="color:#3beb2a;">random</span>()<span style="color:#f82939;">*</span><span style="color:#6f4ebc;">255</span>), <span style="color:#63cce3;">Math</span>.<span style="color:#3beb2a;">floor</span>(<span style="color:#63cce3;">Math</span>.<span style="color:#3beb2a;">random</span>(<span style="color:#6f4ebc;">20</span>)<span style="color:#f82939;">*</span><span style="color:#6f4ebc;">60</span>)];<br />
+<span style="color:#f82939;">var</span> orange <span style="color:#f82939;">=</span> [<span style="color:#6f4ebc;">40</span>, <span style="color:#63cce3;">Math</span>.<span style="color:#3beb2a;">floor</span>(<span style="color:#63cce3;">Math</span>.<span style="color:#3beb2a;">random</span>()<span style="color:#f82939;">*</span><span style="color:#6f4ebc;">255</span>), <span style="color:#6f4ebc;">60</span>];<br />
+<span style="color:#f82939;">var</span> green <span style="color:#f82939;">=</span> [<span style="color:#6f4ebc;">75</span>, <span style="color:#63cce3;">Math</span>.<span style="color:#3beb2a;">floor</span>(<span style="color:#63cce3;">Math</span>.<span style="color:#3beb2a;">random</span>()<span style="color:#f82939;">*</span><span style="color:#6f4ebc;">255</span>), <span style="color:#6f4ebc;">40</span>];<br />
+<span style="color:#f82939;">var</span> blue <span style="color:#f82939;">=</span> [<span style="color:#63cce3;">Math</span>.<span style="color:#3beb2a;">floor</span>(<span style="color:#63cce3;">Math</span>.<span style="color:#3beb2a;">random</span>(<span style="color:#6f4ebc;">150</span>)<span style="color:#f82939;">*</span><span style="color:#6f4ebc;">200</span>), <span style="color:#63cce3;">Math</span>.<span style="color:#3beb2a;">floor</span>(<span style="color:#63cce3;">Math</span>.<span style="color:#3beb2a;">random</span>()<span style="color:#f82939;">*</span><span style="color:#6f4ebc;">255</span>), <span style="color:#6f4ebc;">55</span>];<br />
+<span style="color:#f82939;">var</span> purple <span style="color:#f82939;">=</span> [<span style="color:#63cce3;">Math</span>.<span style="color:#3beb2a;">floor</span>(<span style="color:#63cce3;">Math</span>.<span style="color:#3beb2a;">random</span>()<span style="color:#f82939;">*</span><span style="color:#6f4ebc;">255</span>), <span style="color:#6f4ebc;">50</span>, <span style="color:#6f4ebc;">60</span>];<br />
+<br />
+<span style="color:#f82939;">var</span> myName <span style="color:#f82939;">=</span> <span style="color:#fcc146;">&quot;JavaScript!&quot;</span>;<br />
+<span style="color:#f82939;">var</span> letterColors<span style="color:#f82939;">=</span>[red,orange,green,blue,purple]<br />
+<span style="color:#f82939;">if</span><span style="color:#3beb2a;"> </span>(<span style="color:#6f4ebc;">1</span><span style="color:#f82939;">&gt;</span><span style="color:#6f4ebc;">0</span>){<br />
+&nbsp;&nbsp;&nbsp;&nbsp;bubbleShape<span style="color:#f82939;">=</span><span style="color:#fcc146;">&quot;circle&quot;</span>;<br />
+} <span style="color:#f82939;">else</span>{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;bubbleShape<span style="color:#f82939;">=</span><span style="color:#fcc146;">&quot;square&quot;</span>;<br />
+}<br />
+<br />
+<br />
+<span style="color:#3beb2a;">drawName</span>(myName, letterColors);<br />
+<span style="color:#3beb2a;">bounceName</span>();<br />
+<span style="color:#3beb2a;">bounceBubbles</span>();</div>
+
+</body>
+
+</html>
