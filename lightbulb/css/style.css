@@ -3,6 +3,7 @@ body{
   text-align: center;
   font-family: Courier;
   font-size: 50px;
+<<<<<<< Updated upstream
 }
 */
 
@@ -15,4 +16,6 @@ body{
 @font-face {
     font-family: Ohm;
     src: url("http://223sk.github.io/fonts/ohmweb-bold.ttf");
+=======
+>>>>>>> Stashed changes
 }
