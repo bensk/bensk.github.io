@@ -8,6 +8,11 @@
     src: url("http://223sk.github.io/fonts/ohmweb-bold.ttf");
 }
 
+@font-face{
+	font-family: ConcourseC4;
+	src: url("http://223sk.github.io/fonts/Concourse%20C4%20Regular.otf");
+}
+
 body{
   font-family: ConcourseT3;
   font-size: 24px;
@@ -20,6 +25,7 @@ h1{
   color: #FF4396;
 }
 h2{
+  font-family: ConcourseC4;
   font-size: 2em;
   font-weight: bold;
 }
@@ -35,6 +41,7 @@ ol{
 b{
   color: red;
 }
+
 
 /*
 .lesson{
