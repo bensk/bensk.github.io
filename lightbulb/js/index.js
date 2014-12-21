@@ -5,3 +5,4 @@ function changeImage() {
     } else {
         image.src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/93927/pic_bulbon.gif";
     }
+}
