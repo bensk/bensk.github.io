@@ -1,5 +1,11 @@
+@font-face {
+    font-family: Ohm;
+    src: url("http://223sk.github.io/fonts/ohmweb-bold.ttf");
+}
+
 body{
   text-align: center;
-  font-family: Source Sans Pro;
-  font-size: 3vw;
+  font-family: Ohm;
+  font-size: 72px;
 }
+
