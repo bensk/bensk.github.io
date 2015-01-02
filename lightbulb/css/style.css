@@ -1,11 +1,11 @@
 @font-face {
-    font-family: Ohm;
-    src: url("http://223sk.github.io/fonts/ohmweb-bold.ttf");
+    font-family: OhmBold;
+    src: url("http://223sk.github.io/fonts/ohmweb-bold.otf");
 }
 
 body{
   text-align: center;
-  font-family: Ohm;
+  font-family: OhmBold;
   font-size: 72px;
 }
 

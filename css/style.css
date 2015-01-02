@@ -1,5 +1,5 @@
 @font-face {
-    font-family: OhmBold;
+    font-family: Ohm;
     src: url("http://223sk.github.io/fonts/ohmweb-bold.otf");
 }
 
@@ -19,7 +19,7 @@ body{
 }
 
 h1{
-	font-family: OhmBold;
+	font-family: Ohm;
   font-size: 120px;
   text-align: center;
   color: #FF4396;
