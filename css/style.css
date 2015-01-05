@@ -19,8 +19,8 @@ body{
 }
 
 h1{
-	font-family: Ohm;
-  font-size: 120px;
+	font-family: monospace;
+  font-size: 72px;
   text-align: center;
   color: #FF4396;
 }
