@@ -19,9 +19,10 @@ body{
 }
 
 h1{
-	font-family: monospace;
+	font-family: "ConcourseC4", monospace;
   font-size: 72px;
   text-align: center;
+  text-transform: uppercase;
   color: #FF4396;
 }
 
