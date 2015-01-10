@@ -14,12 +14,12 @@
 }
 
 body{
-  font-family: ConcourseT3;
+  font-family: Muli;
   font-size: 24px;
 }
 
 h1{
-	font-family: "ConcourseC4", monospace;
+	font-family: Fugaz One;
   font-size: 72px;
   text-align: center;
   text-transform: uppercase;
@@ -27,7 +27,7 @@ h1{
 }
 
 h2{
-  font-family: ConcourseC4;
+  font-family: Oleo Script;
   font-size: 2em;
   font-weight: bold;
 }
