@@ -19,7 +19,7 @@
 }
 
 #yellow {
-    background-color:#E2BE;
+    background-color:#E2BE22;
     height:100px;
     width:100px;
     display: inline-block;
@@ -33,6 +33,6 @@
 }
 
 #codepen {
-    width=500px;
+    
     display: inline-block
 }
