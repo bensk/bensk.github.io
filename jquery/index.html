@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>jQuery!</title>
+
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+    
+    <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
+
+  <script src="js/index.js"></script>
+
+
+</head>
+
+    <body>
+        <div id="red"></div>
+        <div id="blue"></div>
+        <div id="yellow"></div>
+        <div id="green"></div>
+        
+        <div data-height="268" data-theme-id="2944" data-slug-hash="ogBmNR" data-default-tab="js" data-user="bsk" class='codepen'><pre><code>$(document).ready(function() {
+   $(&#x27;div&#x27;).mouseenter(function() {
+       $(this).animate({
+           height: &#x27;+=10px&#x27;
+       });
+   });
+   $(&#x27;div&#x27;).mouseleave(function() {
+       $(this).animate({
+           height: &#x27;-=10px&#x27;
+       }); 
+   });
+   $(&#x27;div&#x27;).click(function() {
+       $(this).toggle(1000);
+   }); 
+});</code></pre>
+<p>See the Pen <a href='http://codepen.io/bsk/pen/ogBmNR/'>jQuery!</a> by S-K (<a href='http://codepen.io/bsk'>@bsk</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+</div><script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+    </body>
+
+ 
+</html>
