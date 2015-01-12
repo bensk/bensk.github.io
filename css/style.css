@@ -28,7 +28,7 @@ h1{
 
 h2{
   font-family: Oleo Script;
-  font-size: 2em;
+  font-size: 48px;
   font-weight: bold;
 }
 h3{
@@ -44,14 +44,16 @@ b{
   color: red;
 }
 
-<<<<<<< HEAD
-#lessons{
-	border-top: 50%;
-=======
-.jumbotron{
-	text-align: center;
-	text-shadow: none;
->>>>>>> FETCH_HEAD
+#resources p {
+	font-size: 16px;
+	font-style: italic;
+	color: #828b94;
+}
+
+#lessons p {
+	font-size: 16px;
+	font-style: italic;
+	color: #828b94;
 }
 
 /*
