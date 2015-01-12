@@ -1,11 +1,11 @@
-@font-face {
-    font-family: OhmBold;
-    src: url("http://223sk.github.io/fonts/Concourse%20C4%20Regular.otf");
-}
+/*@font-face {*/
+/*    font-family: Vast Shadow;*/
+/*    src: url("http://223sk.github.io/fonts/Concourse%20C4%20Regular.otf");*/
+/*}*/
 
 body{
   text-align: center;
-  font-family: OhmBold;
+  font-family: Vast Shadow;
   font-size: 72px;
 }
 
