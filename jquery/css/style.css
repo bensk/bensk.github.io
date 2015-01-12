@@ -6,18 +6,30 @@
 
 #red {
     background-color:#FF0000;
+    height:100px;
+    width:100px;
+    display: inline-block;
 }
 
 #blue {
     background-color:#0000FF;
+    height:100px;
+    width:100px;
+    display: inline-block;
 }
 
 #yellow {
-    background-color:#E2BE22;
+    background-color:#E2BE;
+    height:100px;
+    width:100px;
+    display: inline-block;
 }
 
 #green {
     background-color:#008800;
+    height:100px;
+    width:100px;
+    display: inline-block;
 }
 
 #codepen {
