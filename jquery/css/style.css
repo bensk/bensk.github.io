@@ -22,4 +22,5 @@ div {
 
 #codepen {
     width=100%;
+    display: inline;
 }
