@@ -23,7 +23,7 @@ body{
 h1{
 	font-family: Fugaz One;
   font-size: 72px;
-  text-align: center;
+  /* text-align: center; */
   text-transform: uppercase;
   color: #FF4396;
 }
