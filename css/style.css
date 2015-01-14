@@ -1,19 +1,3 @@
-/*
-@font-face {
-    font-family: Ohm;
-    src: url("http://223sk.github.io/fonts/ohmweb-bold.otf");
-}
-
-@font-face {
-    font-family: ConcourseT3;
-    src: url("223sk.github.io/fonts/Concourse T3 Regular.otf");
-    }
-
-@font-face{
-	font-family: ConcourseC4;
-	src: url("http://223sk.github.io/fonts/Concourse%20C4%20Regular.otf");
-}
-*/
 
 
 .page-header h1{
@@ -63,11 +47,3 @@ b{
 	font-style: italic;
 	color: #828b94;
 }
-
-/*
-.lesson{
-	border: 1px dashed black;
-}
-*/
-
-/* Border style isn't showing up, removing it for now */
