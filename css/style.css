@@ -56,10 +56,11 @@ h1{
 }
 
 #review{
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 #smile {
-	font-size: 1vw;
+	font-size: 6px;
+	margin-left: 30px
 }
