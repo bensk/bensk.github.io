@@ -3,7 +3,6 @@
 .page-header h1{
 	font-family: Fugaz One;
   font-size: 72px;
-  text-align: center;
   text-transform: uppercase;
   color: #FF4396;
 }
@@ -49,10 +48,9 @@ b{
 }
 
 h1{
-
+	text-align: center;
 	font-family: Vollkorn;
 	color: #0D141F;
-	text-align: center;
 	font-size: 8vw;
 }
 
