@@ -49,6 +49,7 @@ b{
 }
 
 h1{
+
 	font-family: Vollkorn;
 	color: #0D141F;
 	text-align: center;
@@ -61,6 +62,15 @@ h1{
 }
 
 #smile {
+
 	font-size: 6px;
-	margin-left: 30px
+	margin-left: 30px;
+
 }
+
+.highlight a{
+	background-color: yellow;
+	border-radius: 3px;
+}
+
+
