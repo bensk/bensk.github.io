@@ -15,9 +15,16 @@ h1{
 }
 */
 
-h2{
+.col-md-6 h2{
 	font-family: Ovo;
 	font-size: 36px;
+	text-align: center;
+}
+
+.col-md-12 h2{
+	font-family: Ovo;
+	font-size: 36px;
+	text-align: center;
 }
 
 
