@@ -25,7 +25,7 @@ h1{
 	font-size: 11vw;
 	height: 72px;
 	/*Vertical centering*/
-	position: relative; top: 50%; margin-top: -32px;
+	position: relative; top: 25%; margin-top: -32px;
 	/*Horizontal centering*/
 	text-align: center;
 	
