@@ -16,7 +16,7 @@ h1{
 */
 
 h2{
-	font-family: Muli;
+	font-family: Ovo;
 	font-size: 36px;
 }
 
@@ -24,4 +24,9 @@ h2{
 p{
 	font-family: Muli;
 	font-size: 22px;
+}
+
+.panel-footer{
+	font-family: Open Sans;
+	text-align: center;
 }
