@@ -15,4 +15,13 @@ html, body {height: 100%;}
 	text-align: center;
 }
 
+h1{
+
+	color: white; font: 72px/72px Fugaz One; height: 72px;
+	/*Vertical centering*/
+	position: relative; top: 50%; margin-top: -32px;
+	/*Horizontal centering*/
+	text-align: center;
+	
+}
 
