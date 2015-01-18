@@ -1,0 +1,18 @@
+/*styling #hex*/
+
+/*custom font - Lato*/
+@import url("http://fonts.googleapis.com/css?family=Lato:100");
+/*basic reset*/
+* {margin: 0; padding: 0;}
+/*make the body occupy full height*/
+html, body {height: 100%;}
+
+#hex {
+	color: white; font: 72px/72px Fugaz One; height: 72px;
+	/*Vertical centering*/
+	position: relative; top: 90%; margin-top: -32px;
+	/*Horizontal centering*/
+	text-align: center;
+}
+
+
