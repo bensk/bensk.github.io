@@ -1,3 +1,27 @@
 h1{
-	font-family: cursive;
+	font-family: Unica One;
+	text-transform: uppercase;
+	text-align: center;
+	font-size:8vw;
+}
+
+/* not using Jumbotron for now
+.jumbotron {
+  background-image: url(/images/portfolio.png);
+  width=100%;
+  min-height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+*/
+
+h2{
+	font-family: Muli;
+	font-size: 36px;
+}
+
+
+p{
+	font-family: Muli;
+	font-size: 22px;
 }
