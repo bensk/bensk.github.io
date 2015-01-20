@@ -1,0 +1,28 @@
+h2 {
+    font-family:fugaz one;
+}
+
+form {
+    display: inline-block;
+}
+
+#button{
+    display: inline-block;
+    height:20px;
+	width:70px;
+	background-color:#cc0000;
+	font-family:unica one;
+	font-weight:bold;
+	color:#ffffff;
+	border-radius: 5px;
+	text-align:center;
+	margin-top:2px;
+}
+
+.list {
+	font-family:questrial;
+	line-height: 30px;
+	font-size: 22px;
+	color:#cc0000;
+
+}
