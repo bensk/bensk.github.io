@@ -1,4 +1,10 @@
 #groot {
-  text-align: center;
-  
+  	position: relative; margin-top: 5%;
+  	text-align: center;
+
+}
+
+audio{
+	position: fixed; bottom: 0px; left: 0px;
+
 }
