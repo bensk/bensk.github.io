@@ -1,4 +1,9 @@
-
+::selection {
+  background: #FEF790; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #FEF790; /* Gecko Browsers */
+}
 
 .page-header h1{
 	font-family: Fugaz One;
