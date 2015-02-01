@@ -28,6 +28,7 @@ h2{
   font-size: 48px;
   font-weight: bold;
   color: #111C29;
+  text-align: center;
 }
 h3{
   font-size: 2em;
@@ -78,6 +79,11 @@ h1{
 .highlight a{
 	background-color: yellow;
 	border-radius: 3px;
+}
+
+.glyph{
+	text-align: center;
+	font-size: 48px;
 }
 
 
