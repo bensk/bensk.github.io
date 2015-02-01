@@ -76,6 +76,12 @@ h1{
 
 }
 
+.highlight {
+	background-color: yellow;
+	border-radius: 3px;
+	text-align: center;
+}
+
 .highlight a{
 	background-color: yellow;
 	border-radius: 3px;
