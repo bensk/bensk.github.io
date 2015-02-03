@@ -47,7 +47,7 @@ b{
   color: red;
 }
 
-#resources p {
+.caption {
 	font-size: 16px;
 	font-style: italic;
 	color: #828b94;
@@ -58,6 +58,7 @@ b{
 	font-style: italic;
 	color: #828b94;
 }
+
 
 h1{
 	font-family: Vollkorn;
@@ -104,5 +105,6 @@ h1{
 	max-width: 800px;
 	margin-left: auto;
 	margin-right: auto;
+	padding-top:5px;
 }
 
