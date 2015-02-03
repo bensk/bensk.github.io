@@ -6,10 +6,8 @@
 }
 
 .page-header h1{
-	text-align: center;
+
 	font-family: Fugaz One;
-	padding-left: 5%;
-	padding-right: 5%;
   font-size: 72px;
   text-transform: uppercase;
   color: #FF4396;
@@ -63,6 +61,7 @@ b{
 
 
 h1{
+	text-align: center;
 	font-family: Vollkorn;
 	color: #0D141F;
 	font-size: 8vw;
