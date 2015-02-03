@@ -99,4 +99,10 @@ h1{
 	padding-bottom: 10px;
 }
 
+.econimage{
+	display: block;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
