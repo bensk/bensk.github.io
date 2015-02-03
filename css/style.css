@@ -109,3 +109,7 @@ b{
 	padding-top:5px;
 }
 
+/* Needed to add padding to the columns, not just the body, so that the fixed nav at the bottom doesn't overlay. Smart! */
+.col-md-3, .col-md-12{ 
+	padding-bottom: inherit;
+}
