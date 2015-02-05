@@ -117,3 +117,9 @@ b{
 .col-md-3, .col-md-12{ 
 	padding-bottom: inherit;
 }
+
+td{
+	font-family: Muli;
+	font-weight: 100;
+	font-size: 1.3em;
+}
