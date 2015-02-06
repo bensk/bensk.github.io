@@ -18,6 +18,7 @@ body{
   font-weight: 300;
   font-size: 24px;
   padding-bottom: 70px;
+
 }
 
 h1{
@@ -63,8 +64,6 @@ b{
 	font-style: italic;
 	color: #828b94;
 }
-
-
 
 
 #review{
@@ -114,8 +113,10 @@ b{
 }
 
 /* Needed to add padding to the columns, not just the body, so that the fixed nav at the bottom doesn't overlay. Smart! */
+/*
 .col-md-3, .col-md-12{ 
 	padding-bottom: inherit;
+*/
 }
 
 td{
