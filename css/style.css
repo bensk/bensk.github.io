@@ -122,3 +122,14 @@ td{
 	font-weight: 100;
 	font-size: 1.3em;
 }
+
+dt{
+	font-weight: 100;
+}
+
+dd{
+	color: grey;
+	font-style: italic;
+	font-size: .8em;
+	
+}
