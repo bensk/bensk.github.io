@@ -34,6 +34,7 @@ h2{
   font-weight: bold;
   color: #111C29;
   text-align: center;
+  margin-top: 0px;
 }
 
 h3{
@@ -128,7 +129,8 @@ dt{
 }
 
 dd{
-	color: grey;
+	font-weight: 100;
+	color: #828b94;
 	font-style: italic;
 	font-size: .8em;
 	
