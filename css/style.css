@@ -188,3 +188,15 @@ dd{
     top: 768px;
     z-index: -1;
 }
+
+#economist h1{
+	padding: 10px;
+	padding-bottom: 0px;
+	text-align: left;
+	background-color: red;
+	color: white; 
+}
+
+#economist li{
+	font-size: 32px;
+}
