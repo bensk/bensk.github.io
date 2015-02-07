@@ -162,6 +162,8 @@ dd{
 
 .titlecard{
 	height: 768px;
+	display: table; 
+	overflow: hidden;
 	}
 	
 .titlecard h1{
@@ -171,8 +173,11 @@ dd{
 	text-shadow: 1px 1px 12px white;
 	}
 .titlecard p{
+	display: table-cell;
+	vertical-align: middle;
 	font-family: Quando;
 	font-size: 60px;
+	padding:15px;
 }
 	
 .titlecard img{
