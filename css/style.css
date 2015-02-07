@@ -38,6 +38,7 @@ h2{
 h3{
   font-size: 2em;
   color: #268ED5;
+  text-align: center;
 }
 
 ol{
@@ -109,6 +110,31 @@ b{
 
 .container{
 	margin-bottom: -10px;
+}
+
+.jumbotron{
+	background-image:url("https://espnfivethirtyeight.files.wordpress.com/2014/10/sneaker_customer.jpg?w=2048");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+}
+
+.jumbotron h1{
+	font-family: Alfa Slab One;
+	font-size: 48px;
+	text-align: left;
+	text-shadow: 1px 1px 12px white;
+	margin-left: -10px;
+	margin-top: -40px;
+}
+
+.jumbotron h3{
+	font-family: Alfa Slab One;
+	text-align: right;
+	color: #333333;
+	text-shadow:1px 1px 12px white;
+	margin-top: 200px;	
+	margin-right: -60px;
 }
 
 /* Needed to add padding to the columns, not just the body, so that the fixed nav at the bottom doesn't overlay. Smart! */
