@@ -149,6 +149,11 @@ td{
 	font-size: 1.3em;
 }
 
+th{
+	font-family: Muli;
+	font-weight: 400;
+}
+
 dt{
 	font-weight: 100;
 }
