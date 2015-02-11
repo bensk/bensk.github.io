@@ -41,6 +41,11 @@ h3{
   text-align: center;
 }
 
+h4{
+	font-size: 36px;
+	text-align: center;
+}
+
 ol{
   color: #424242;
   font-size: 2em;
@@ -48,9 +53,6 @@ ol{
   margin-right: 10%;
 }
 
-b{
-  color: red;
-}
 
 .caption {
 	font-size: 16px;
@@ -207,6 +209,10 @@ li{
 	font-size: 24px;
 }
 
-strong{
+strong, b{
 	font-weight: 400;
+}
+
+mark{
+	background-color: #FEF790;
 }
