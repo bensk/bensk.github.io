@@ -171,14 +171,15 @@ dd{
 
 .titlecard{
 	height: 768px;
-	display: table; 
+/* 	display: table;  */
 	overflow: hidden;
 	}
 	
 .titlecard h1{
+	text-align: center;
 	padding-top: auto;
 	padding-bottom: auto;
-
+	font-size: 20vw;
 	text-shadow: 1px 1px 12px white;
 	}
 .titlecard p{
