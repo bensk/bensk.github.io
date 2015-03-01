@@ -218,6 +218,9 @@ strong, b{
 
 mark{
 	background-color: #FEF790;
+	border-radius: 5px;
+	padding-bottom: 1px;
+	padding-top: 1px;
 }
 
 #footer{
