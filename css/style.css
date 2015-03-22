@@ -43,6 +43,7 @@ h3{
 }
 
 h4{
+	font-family: Montserrat;
 	font-size: 36px;
 	text-align: center;
 }
@@ -122,6 +123,17 @@ ol{
 	height: 600px;
 }
 
+#scarcity{
+	background-image:url("http://content.nike.com/content/dam/one-nike/en_us/season-2014-su/shop/launch/what-the/Lebron_XI_What_The_pair_3qtr_FB.jpg.transform/default/image.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	text-align: center;
+	padding-top: auto;
+	padding-bottom: auto;
+	text-shadow: 1px 1px 12px white;
+}
+
 .jumbotron h1{
 	font-family: Alfa Slab One;
 	font-size: 48px;
@@ -182,11 +194,10 @@ dd{
 	}
 	
 .titlecard p{
-	display: table-cell;
+
 	vertical-align: middle;
 	font-family: Quando;
 	font-size: 60px;
-	padding:15px;
 }
 	
 .titlecard img{
