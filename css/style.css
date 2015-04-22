@@ -19,6 +19,10 @@ body{
   padding-bottom: 70px;
 }
 
+h{
+	text-align: center;
+}
+
 h1{
 	text-align: center;
 	font-family: Ovo;
