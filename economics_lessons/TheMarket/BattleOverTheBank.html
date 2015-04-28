@@ -1,97 +1,208 @@
-<pre>
-<span style="color: #434F54;">/*</span>
+<head>
 
-<span style="color: #434F54;">TEMPERATURE&nbsp;SENSOR</span>
+	<!-- Latest compiled and minified CSS -->
 
-<span style="color: #434F54;">&nbsp;&nbsp;Use&nbsp;the&nbsp;"serial&nbsp;monitor"&nbsp;window&nbsp;to&nbsp;read&nbsp;a&nbsp;temperature&nbsp;sensor.</span>
-<span style="color: #434F54;">&nbsp;&nbsp;</span>
-<span style="color: #434F54;">&nbsp;&nbsp;We'll&nbsp;start&nbsp;using&nbsp;the&nbsp;Arduino's&nbsp;serial&nbsp;port</span>
-<span style="color: #434F54;">&nbsp;&nbsp;to&nbsp;send&nbsp;data&nbsp;back&nbsp;to&nbsp;your&nbsp;main&nbsp;computer!&nbsp;Up&nbsp;until&nbsp;now,&nbsp;we've&nbsp;</span>
-<span style="color: #434F54;">&nbsp;&nbsp;been&nbsp;limited&nbsp;to&nbsp;using&nbsp;simple&nbsp;LEDs&nbsp;for&nbsp;output.&nbsp;We'll&nbsp;see&nbsp;that</span>
-<span style="color: #434F54;">&nbsp;&nbsp;the&nbsp;Arduino&nbsp;can&nbsp;also&nbsp;easily&nbsp;output&nbsp;all&nbsp;kinds&nbsp;of&nbsp;text&nbsp;and&nbsp;data.</span>
-<span style="color: #434F54;">&nbsp;&nbsp;</span>
-<span style="color: #434F54;">*/</span>
+	<!-- Google Fonts -->
+	        <link href='https://fonts.googleapis.com/css?family=Fauna+One|Oleo+Script|Fugaz+One|Monda|Unica+One|Alegreya:400italic,400|Abril+Fatface|Vollkorn' rel='stylesheet' type='text/css'>
 
-<span style="color: #434F54;">//&nbsp;We'll&nbsp;use&nbsp;analog&nbsp;input&nbsp;0&nbsp;to&nbsp;measure&nbsp;the&nbsp;temperature&nbsp;sensor's&nbsp;signal&nbsp;pin.</span>
+	        <!-- Google web fonts for "The Astronomer" -->
+	        <link href='https://fonts.googleapis.com/css?family=Megrim|Roboto+Slab:300' rel='stylesheet' type='text/css'>
 
-<span style="color: #00979C;">const</span> <span style="color: #00979C;">int</span> temperaturePin = 0;
+	        <!-- Google web fonts for "The River" -->
+	        <link href='https://fonts.googleapis.com/css?family=Open+Sans:800|Gentium+Basic:400,400italic' rel='stylesheet' type='text/css'>
 
-<span style="color: #00979C;">void</span> <span style="color: #5E6D03;">setup</span>()
-{
-&nbsp;&nbsp;<span style="color: #434F54;">// In this sketch, we'll use the Arduino's serial port to send text back to the main computer. </span>
-&nbsp;&nbsp;
-&nbsp;&nbsp;<span style="color: #D35400;"><b>Serial</b></span>.<span style="color: #D35400;">begin</span>(9600);
-}
+	        <!-- Google web fonts for "The Crow and the Pitcher" -->
+	        <link href='https://fonts.googleapis.com/css?family=Questrial|Old+Standard+TT:400,400italic,700' rel='stylesheet' type='text/css'>
 
-<span style="color: #00979C;">void</span> <span style="color: #5E6D03;">loop</span>()
-{
-&nbsp;&nbsp;
-&nbsp;&nbsp;<span style="color: #434F54;">// Up to now we've only used integer ("int") values in our</span>
-&nbsp;&nbsp;<span style="color: #434F54;">// sketches. Integers are always whole numbers (0, 1, 23, etc.).</span>
-&nbsp;&nbsp;<span style="color: #434F54;">// In this sketch, we'll use floating-point values ("float").</span>
-&nbsp;&nbsp;<span style="color: #434F54;">// Floats can be fractional numbers such as 1.42, 2523.43121, etc.</span>
+	        <!-- Google web fonts for "The Fox and the Grapes" -->
+	        <link href='https://fonts.googleapis.com/css?family=Ovo|Muli:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
 
-&nbsp;&nbsp;<span style="color: #00979C;">float</span> voltage, degreesC, degreesF;
+	        <!-- Google web fonts for "The Moon and Her Mother: Anon03" -->
+	        <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic|Vast+Shadow|Oswald:300|Playfair+Display+SC' rel='stylesheet' type='text/css'>
 
-&nbsp;&nbsp;<span style="color: #434F54;">// This will give us the voltage from the sensor, which is proportional to temperature.</span>
+	        <!-- Google web fonts for "The Prophet" -->
+	        <link href='https://fonts.googleapis.com/css?family=Neuton:300' rel='stylesheet' type='text/css'>
 
-&nbsp;&nbsp;voltage&nbsp;=&nbsp;getVoltage(temperaturePin);
-&nbsp;&nbsp;
-&nbsp;&nbsp;<span style="color: #434F54;">// Now we'll convert the voltage to degrees Celsius.</span>
-&nbsp;&nbsp;<span style="color: #434F54;">// This formula comes from the temperature sensor datasheet:</span>
+	        <!-- Google web fonts for "The wolves, the sheep, and the ram" -->
+	        <link href='https://fonts.googleapis.com/css?family=Quattrocento|Fanwood+Text' rel='stylesheet' type='text/css'>
 
-&nbsp;&nbsp;degreesC&nbsp;=&nbsp;(voltage&nbsp;-&nbsp;0.5)&nbsp;*&nbsp;100.0;
-&nbsp;&nbsp;
-&nbsp;&nbsp;<span style="color: #434F54;">// While we're at it, let's convert degrees Celsius to Fahrenheit.</span>
-&nbsp;&nbsp;<span style="color: #434F54;">// This is the classic C to F conversion formula:</span>
-&nbsp;&nbsp;
-&nbsp;&nbsp;degreesF&nbsp;=&nbsp;degreesC&nbsp;*&nbsp;(9.0/5.0)&nbsp;+&nbsp;32.0;
-&nbsp;&nbsp;
-&nbsp;&nbsp;<span style="color: #434F54;">// Can I get an LED to turn on?</span>
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #5E6D03;">if</span> (((degreesF &gt;=60)))
-&nbsp;&nbsp;{
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #D35400;">digitalWrite</span>(13, <span style="color: #00979C;">HIGH</span>);  <span style="color: #434F54;">// turn the LED on</span>
-&nbsp;&nbsp;}
-&nbsp;&nbsp;<span style="color: #5E6D03;">else</span>
-&nbsp;&nbsp;{
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #D35400;">digitalWrite</span>(13, <span style="color: #00979C;">LOW</span>);  <span style="color: #434F54;">// turn the LED off</span>
-&nbsp;&nbsp;}
-&nbsp;&nbsp;
-&nbsp;&nbsp;<span style="color: #434F54;">// Now we'll use the serial port to print these values</span>
-&nbsp;&nbsp;<span style="color: #434F54;">// to the serial monitor!</span>
-&nbsp;&nbsp;
-&nbsp;&nbsp;<span style="color: #434F54;">// To open the serial monitor window, upload your code,</span>
-&nbsp;&nbsp;<span style="color: #434F54;">// then click the "magnifying glass" button at the right edge</span>
-&nbsp;&nbsp;<span style="color: #434F54;">// of the Arduino IDE toolbar. The serial monitor window</span>
-&nbsp;&nbsp;<span style="color: #434F54;">// will open.</span>
-&nbsp;
-&nbsp;&nbsp;<span style="color: #434F54;">// To send data from the Arduino to the serial monitor window,</span>
-&nbsp;&nbsp;<span style="color: #434F54;">// we use the Serial.print() function. You can print variables</span>
-&nbsp;&nbsp;<span style="color: #434F54;">// or text (within quotes).</span>
+	        <!-- Google web fonts for "The Boy Bathing" -->
+	        <link href='https://fonts.googleapis.com/css?family=Quando|Judson|Montserrat:700' rel='stylesheet' type='text/css'>
 
-&nbsp;&nbsp;<span style="color: #D35400;"><b>Serial</b></span>.<span style="color: #D35400;">print</span>(<span style="color: #006699;">"voltage: "</span>);
-&nbsp;&nbsp;<span style="color: #D35400;"><b>Serial</b></span>.<span style="color: #D35400;">print</span>(voltage);
-&nbsp;&nbsp;<span style="color: #D35400;"><b>Serial</b></span>.<span style="color: #D35400;">print</span>(<span style="color: #006699;">"  deg C: "</span>);
-&nbsp;&nbsp;<span style="color: #D35400;"><b>Serial</b></span>.<span style="color: #D35400;">print</span>(degreesC);
-&nbsp;&nbsp;<span style="color: #D35400;"><b>Serial</b></span>.<span style="color: #D35400;">print</span>(<span style="color: #006699;">"  deg F: "</span>);
-&nbsp;&nbsp;<span style="color: #D35400;"><b>Serial</b></span>.<span style="color: #D35400;">println</span>(degreesF);
+	        <!-- Google web fonts for "The Serpent and The Eagle  " -->
+	        <link href='https://fonts.googleapis.com/css?family=Vollkorn:700italic,700|Exo:400,400italic' rel='stylesheet' type='text/css'>
 
-&nbsp;&nbsp;<span style="color: #434F54;">// These statements will print lines of data like this:</span>
-&nbsp;&nbsp;<span style="color: #434F54;">// "voltage: 0.73 deg C: 22.75 deg F: 72.96"</span>
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;<span style="color: #D35400;">delay</span>(1000); <span style="color: #434F54;">// repeat once per second (change as you wish!)</span>
-}
+	        <!-- Google web fonts for "The Fir-Tree" -->
+	        <link href='https://fonts.googleapis.com/css?family=Stint+Ultra+Expanded|Slabo+13px|Ultra' rel='stylesheet' type='text/css'>
+
+	        <!-- Google web fonts for "The fox and the lion" -->
+	        <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Lora:400italic' rel='stylesheet' type='text/css'>
+
+	        <!-- Google web fonts for "The Horse and the Groom" -->
+	        <link href='https://fonts.googleapis.com/css?family=Alfa+Slab+One|Gentium+Book+Basic:400,400italic' rel='stylesheet' type='text/css'>
+
+	        <!-- Google web fonts for "The Owl and the Birds" -->
+	        <link href='https://fonts.googleapis.com/css?family=Domine' rel='stylesheet' type='text/css'>
+
+	        <!-- Google web fonts for "The Crow and The Raven" -->
+	        <link href='https://fonts.googleapis.com/css?family=Nixie+One|Libre+Baskerville' rel='stylesheet' type='text/css'>
+
+	        <!-- Google web fonts for "Jupiter And The Tortoise" -->
+	        <link href='https://fonts.googleapis.com/css?family=Philosopher' rel='stylesheet' type='text/css'>
+
+	        <!-- Typography Project stylesheet -->
+	        <link href="css/google-type.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
 
-<span style="color: #00979C;">float</span> getVoltage(<span style="color: #00979C;">int</span> pin)
-{
-&nbsp;&nbsp;<span style="color: #5E6D03;">return</span> (<span style="color: #D35400;">analogRead</span>(pin) * 0.004882814);
-}
+		<link rel="stylesheet" href="/css/style.css" media="screen" type="text/css" />
 
-<span style="color: #434F54;">//&nbsp;Other&nbsp;things&nbsp;to&nbsp;try&nbsp;with&nbsp;this&nbsp;code:</span>
+			<script type="text/javascript" src="/js/bigfoot.js"></script>
 
-<span style="color: #434F54;">//&nbsp;&nbsp;&nbsp;Turn&nbsp;on&nbsp;an&nbsp;LED&nbsp;if&nbsp;the&nbsp;temperature&nbsp;is&nbsp;above&nbsp;or&nbsp;below&nbsp;a&nbsp;value.</span>
-<span style="color: #434F54;">//&nbsp;&nbsp;&nbsp;Read&nbsp;that&nbsp;value&nbsp;from&nbsp;a&nbsp;potentiometer&nbsp;-&nbsp;now&nbsp;you've</span>
-<span style="color: #434F54;">//&nbsp;&nbsp;&nbsp;created&nbsp;a&nbsp;thermostat.</span>
+			<script type="text/javascript">$.bigfoot();</script>
 
-</pre>
+			<link rel="stylesheet" href="/css/bigfoot-bottom.css">
+
+
+		<title>The Battle over the Bank</title>
+</head>
+
+<body>
+	<div class="page-header">
+		<h2>The Battle over the Bank</h2>
+	</div>
+
+	<h1>Aim: How can a philosophical debate shape economic policy?</h1>
+	<h3>Do Now: What was Alexander Hamilton's position in government?</h3>
+
+	<img class="img-responsive" src="TheMarketResources/10dollarbill.jpg">
+		<div class="caption">“The $10 Founding Father without a father.”</div>
+
+		<div class="container">
+
+<blockquote><p>Born out of wedlock, raised in poverty in St. Croix, abandoned by his father, and orphaned by his mother as a child, Hamilton transplanted himself as an adolescent to a New York City filled with revolutionary fervor. An eloquent and prolific writer, he was the author of two-thirds of the Federalist Papers; after serving as George Washington’s aide during the Revolutionary War, he became America’s first Treasury Secretary.</p>
+
+<p>Later, Hamilton achieved the dubious distinction of being at the center of the nation’s first political sex scandal, after an extramarital affair became public. He never again held office, and before reaching the age of fifty he was dead, killed in a duel by Aaron Burr, the Vice-President, after a personal dispute escalated beyond remediation.</p><footer><cite><a href="http://www.newyorker.com/magazine/2015/02/09/hamiltons">All about the Hamiltons</a></cite> - Rebecca Mead</footer></blockquote>
+
+
+</div>
+
+
+
+<h4><blockquote>"My Ambition is so prevalent...I wish there was a war"<footer>Alexander Hamilton, age 14</footer></blockquote></h4>
+
+<div class="container">
+
+<h3>The Battle over the Bank</h3>
+
+<p>After months of battling and compromises, the US Constitution was finally adopted on September 17, 1787. Still, America was embroiled in heated arguments over exactly how the government would work and what powers it could really exercise. Political parties soon developed as groups argued about the direction of the country. Alexander Hamilton became a leading voice of the <mark>Federalists</mark> who believed that the federal government needed to be strong. On the other side, Thomas Jefferson, a <mark>Republican</mark>, argued that too much power in the hands of the federal government would lead to tyranny.</p>
+
+<p>The <mark>necessary and proper clause</mark> part of Article I of the Constitution allowed for Congress to make laws and provisions that were not part of the enumerated powers. Hamilton and Jefferson debated many times over what was meant by “necessary and proper.” Hamilton took a more liberal reading of the clause and said that Congress should do <mark>anything</mark> it felt was necessary to carry out national responsibilities. Jefferson held that the clause meant that Congress should <mark>only</mark> take actions that were absolutely necessary, and no more.</p>
+
+<h4>What does the Constitution say?</h4>
+
+
+
+<div class="col-md-12" style="border-radius: 5px; font-family: Vollkorn; font-size: 16px; background-color: #E9C99C; box-shadow:1px 1px 16px black;">
+	<div class="caption">U.S. Constitution - Article 1 Section 8 (The Necessary and Proper Clause)</div>
+<p>The Congress shall have Power To lay and collect Taxes, Duties, Imposts and Excises, to pay the Debts and provide for the common Defence and general Welfare of the United States; but all Duties, Imposts and Excises shall be uniform throughout the United States</p>
+<p>To borrow Money on the credit of the United States</p>
+<p>To regulate Commerce with foreign Nations, and among the several States, and with the Indian Tribes</p>
+<p>To establish an uniform Rule of Naturalization, and uniform Laws on the subject of Bankruptcies throughout the United States</p>
+<p>To coin Money, regulate the Value thereof, and of foreign Coin, and fix the Standard of Weights and Measures</p>
+<p>To provide for the Punishment of counterfeiting the Securities and current Coin of the United States</p>
+<p>To establish Post Offices and post Roads</p>
+<p>To promote the Progress of Science and useful Arts, by securing for limited Times to Authors and Inventors the exclusive Right to their respective Writings and Discoveries</p>
+<p>To constitute Tribunals inferior to the supreme Court</p>
+<p>To define and punish Piracies and Felonies committed on the high Seas, and Offences against the Law of Nations</p>
+<p>To declare War, grant Letters of Marque and Reprisal, and make Rules concerning Captures on Land and Water</p>
+<p>To raise and support Armies, but no Appropriation of Money to that Use shall be for a longer Term than two Years</p>
+<p>To provide and maintain a Navy</p>
+<p>To make Rules for the Government and Regulation of the land and naval Forces</p>
+<p>To provide for calling forth the Militia to execute the Laws of the Union, suppress Insurrections and repel Invasions</p>
+<p>To provide for organizing, arming, and disciplining, the Militia, and for governing such Part of them as may be employed in the Service of the United States, reserving to the States respectively, the Appointment of the Officers, and the Authority of training the Militia according to the discipline prescribed by Congress</p>
+<p>To exercise exclusive Legislation in all Cases whatsoever, over such District (not exceeding ten Miles square) as may, by Cession of particular States, and the Acceptance of Congress, become the Seat of the Government of the United States, and to exercise like Authority over all Places purchased by the Consent of the Legislature of the State in which the Same shall be, for the Erection of Forts, Magazines, Arsenals, dock-Yards, and other needful Buildings;—An</p>
+<p>To make all Laws which shall be necessary and proper for carrying into Execution the foregoing Powers, and all other Powers vested by this Constitution in the Government of the United States, or in any Department or Officer thereof.</p>
+</div>
+</div><br>
+
+<div class="well">
+<h4>Questions</h4>
+<li>What are the powers <mark>explicitly</mark> <sup id="fnref:explicitly">
+        <a href="#fn:explicitly" rel="footnote"></a>
+   </sup>
+
+<div class="footnotes"><ol>
+    <li class="footnote" id="fn:explicitly">
+        <p><b>explicitly:</b> stated clearly.<a href="#fnref:explicitly" title="return to article"> ↩</a><p>
+    </li>
+</ol></div> given to Congress?</li>
+<li>What are the <mark>benefits</mark> to having enumerated <sup id="fnref:enumerated">
+        <a href="#fn:enumerated" rel="footnote"></a>
+   </sup>
+
+<div class="footnotes"><ol>
+    <li class="footnote" id="fn:enumerated">
+        <p><b>enumerated:</b> listed one-by-one.<a href="#fnref:enumerated" title="return to article"> ↩</a><p>
+    </li>
+</ol></div> powers? </li>
+<li>What are some of the <mark>drawbacks</mark> to having enumerated powers? </li>
+<li>Why do you think the Founding Fathers included the <mark>“necessary and proper”</mark> clause in the Constitution?</li>
+<li>Why might someone be <mark>nervous</mark> about the necessary and proper clause?</li>
+</div>
+
+<div class="container">
+
+<p>In 1791, Hamilton proposed that the United States charter a national bank in order to take care of Revolutionary War debt, create a single national currency, and  stimulate the economy. Jefferson argued that the creation of a national bank was not a power granted under the enumerated powers, nor was it necessary and proper. Both gentlemen presented their arguments to President Washington...</p>
+
+<div class="container">
+<div class="col-md-6" style="border-radius: 5px; font-family: Vollkorn; font-size: 16px; background-color: #E9C99C; box-shadow:1px 1px 16px black; margin-right: 25px; margin-left: -25px;">
+<div class="caption">Thomas Jefferson</div>
+
+<p>“I consider the foundation of the Constitution as laid on this ground: That "all powers not delegated to the United States, by the Constitution, nor prohibited by it to the States, are reserved to the States or to the people." To take a single step beyond the boundaries thus specially drawn around the powers of Congress, is to take possession of a boundless field of power, no longer susceptible of any definition.” </p>
+
+<p>“The incorporation of a bank, and the powers assumed by this bill, have not, in my opinion, been delegated to the United States, by the Constitution.” </p>
+
+<p>“To "regulate commerce with foreign nations, and among the States, and with the Indian tribes." To erect a bank, and to regulate commerce, are very different acts.”</p>
+
+<p>“It would reduce the whole instrument to a single phrase, that of instituting a Congress with power to do whatever would be for the good of the United States; and, as they would be the sole judges of the good or evil, it would be also a power to do whatever evil they please.” </p>
+
+<p>“The second general phrase is, "to make all laws necessary and proper for carrying into execution the enumerated powers." But they can all be carried into execution without a bank. A bank therefore is not necessary, and consequently not authorized by this phrase.” </p>
+
+</div>
+
+
+<div class="col-md-6" style="border-radius: 5px; font-family: Vollkorn; font-size: 16px; background-color: #E9C99C; box-shadow:1px 1px 16px black; margin-right: -25px; margin-left: 25px; ">
+<div class="caption">Alexander Hamilton</div>
+<p>“This restrictive interpretation of the word necessary is also contrary to this sound maxim of construction; namely, that the powers contained in a constitution of government, especially those which concern the general administration of the affairs of a country, its finances, trade, defence etc. ought to be construed liberally, in advancement of the public good.”</p>
+
+<p>“It is not denied that there are implied well as express powers, and that the former are as effectually delegated as the latter.”</p>
+
+<p>“The proposed bank is to consist of an association of persons, for the purpose of creating a joint capital, to be employed, chiefly and essentially, in loans. So far, the object is not only lawful, but it is the mere exercise of a right which the law allows to every individual.”</p>
+
+<p>“Accordingly, it is affirmed, that it [the bank] has a relation, more or less direct, to the power of collecting taxes; to that of borrowing money; to that of regulating trade between the States...”</p>
+
+<p>“And in the last place, it will be argued, that it is clearly within the provision which authorizes the making of all needful rules and regulations concerning the property of the United States, as the same has been practised upon by the Government.”</p>
+
+<p>“To deny the power of the Government to add this ingredient to the plan, would be to refine away all government.”</p>
+</div>
+</div>
+</div></div></div>
+<br>
+
+
+<br>
+<h4>Is the bank legal?</h4>
+
+<div class="col-md-12 text-center">
+<a href="/economics.html"><span class="glyphicon glyphicon-home"</a></span></div>
