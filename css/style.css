@@ -28,7 +28,7 @@ h1{
 	font-family: Ovo;
 	font-weight: 300;
 	color: #0D141F;
-	font-size: 60px;
+	font-size: 48px;
 }
 
 h2{
@@ -161,9 +161,11 @@ ol{
 }
 
 /* Needed to add padding to the columns, not just the body, so that the fixed nav at the bottom doesn't overlay. Smart! */
+/*
 .col-md-3, .col-md-12{ 
 	padding-bottom: inherit;
 }
+*/
 
 td{
 	font-family: Muli;
