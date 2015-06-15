@@ -9,13 +9,14 @@ html, body {height: 100%;}
 
 #hex {
 	color: white; 
-	font-size: 20vw ;
-	font-family: Fugaz One; 
+	font-size: 30vw ;
+	font-family: "VT323"; 
 	height: 72px;
 	/*Vertical centering*/
 	position: relative; top: 50%; margin-top: -32px;
 	/*Horizontal centering*/
 	text-align: center;
+	text-shadow: 5px 5px 1px #424242;
 }
 
 h1{
@@ -28,6 +29,7 @@ h1{
 	position: relative; top: 25%; 
 	/*Horizontal centering*/
 	text-align: center;
+	text-shadow: 5px 5px 1px #424242;
 	
 }
 
