@@ -1,0 +1,83 @@
+h1,
+h2,
+h3 {
+		font-family: "Open Sans Condensed", Helvetica Neue;
+		font-size: 72px;
+		text-align: center;
+		color: #3C8FFF;
+}
+
+h1,
+h2 {
+		background-color: white;
+}
+
+h2 {
+		font-size: 36px;
+		/*color: gray;*/
+}
+
+h3 {
+		font-size: 24px;
+		text-align: left;
+		margin-left: 10%;
+		color: #424242;
+}
+
+p,
+li {
+		font-family: "Lora", Georgia;
+		font-size: 22px;
+		line-height: 1.5;
+		margin-left: 10%;
+		margin-right: 40%;
+}
+
+#intro {
+		/*background-color: #05E5FF;*/
+		
+		background-image: url(http://upload.wikimedia.org/wikipedia/commons/3/38/Arduino_Uno_-_R3.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: right;
+		background-size: 40%;
+		background
+}
+
+#backgroundInfo {
+		background-image: url(http://cdn.thinglink.me/api/image/611276366024802304/1024/10/scaletowidth#tl-611276366024802304;1043138249);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: left;
+		background-size: 39%;
+}
+
+#backgroundInfo p {
+		margin-left: 40%;
+		margin-right: 10%;
+}
+
+#design {
+		background-image: url("http://www.aantiks.com/wp-content/uploads/2015/04/IMG_0791.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: right;
+		background-size: 39%;
+}
+
+iframe {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+}
+
+#data p {
+		margin-left: 10%;
+		margin-right: 10%;
+}
+
+#conclusion p {
+		margin-left: 10%;
+		margin-right: 10%;
+}
+
