@@ -1,0 +1,23 @@
+h1, h2, h3, h4 {
+  font-family: "Oswald", Helvetica Neue;
+  font-size: 72px;
+  text-align: center;
+  color: #3C8FFF;
+}
+
+h2 {
+  font-size: 36px;
+  /*color: gray;*/
+}
+
+h4 {
+	font-size: 18px;
+}
+
+p {
+  font-family: "Crimson Text", Georgia;
+  font-size: 22px;
+  line-height: 1.5;
+  margin-left: 10%;
+  margin-right: 10%;
+}
