@@ -21,3 +21,9 @@ p {
   margin-left: 10%;
   margin-right: 10%;
 }
+
+a{
+	font-family: "Crimson Text", Georgia;
+  font-size: 22px;
+  line-height: 1.5;
+}
