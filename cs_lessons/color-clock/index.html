@@ -28,6 +28,39 @@
 <div id="hex"></div>
 
   <script src="js/index.js"></script>
+  
+<div id="code">
+	
+	<div data-height="268" data-theme-id="2944" data-slug-hash="yybeVY" data-default-tab="js" data-user="bsk" class='codepen'><pre><code>//let&#39;s display the current time
+var d, h, m, s, color;
+
+function displayTime() {
+		d = new Date(); //new data object
+		h = d.getHours();
+		m = d.getMinutes();
+		s = d.getSeconds();
+
+		//add zero to the left of the numbers if they are single digits
+		if (h &lt;= 9) h = &#39;0&#39; + h;
+		if (m &lt;= 9) m = &#39;0&#39; + m;
+		if (s &lt;= 9) s = &#39;0&#39; + s;
+
+		color = &quot;#&quot; + h + m + s;
+		//set background color
+		document.body.style.background = color;
+		//set time
+		document.getElementById(&quot;hex&quot;).innerHTML = color;
+
+		//retrigger the function every second
+		setTimeout(displayTime, 1000);
+}
+
+//call the function
+displayTime();</code></pre>
+<p>See the Pen <a href='http://codepen.io/bsk/pen/yybeVY/'>Color Clock</a> by S-K (<a href='http://codepen.io/bsk'>@bsk</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+</div><script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+	
+</div>
 
 </body>
 
