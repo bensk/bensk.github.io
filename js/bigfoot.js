@@ -18,7 +18,7 @@
         numberResetSelector: void 0,
         popoverDeleteDelay: 300,
         popoverCreateDelay: 100,
-        positionContent: false,
+        positionContent: true,
         preventPageScroll: true,
         scope: false,
         useFootnoteOnlyOnce: true,
@@ -485,11 +485,13 @@
         };
       };
       viewportDetails = function() {
+        var $window;
+        $window = $(window);
         return {
           width: window.innerWidth,
           height: window.innerHeight,
-          scrollX: window.scrollX,
-          scrollY: window.scrollY
+          scrollX: $window.scrollLeft(),
+          scrollY: $window.scrollTop()
         };
       };
       addBreakpoint = function(size, trueCallback, falseCallback, deleteDelay, removeOpen) {
