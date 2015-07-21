@@ -1,23 +1,28 @@
 <head>
-	<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-		
-		
-	<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-		
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>	
- <link href='https://fonts.googleapis.com/css?family=Fugaz+One|Muli:300,400,300italic,400italic|Montserrat:700' rel='stylesheet' type='text/css'>
+	 <link href='https://fonts.googleapis.com/css?family=Fugaz+One|Muli:300,400,300italic,400italic|Montserrat:700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	
+		<script type="text/javascript" src="/js/bigfoot.js"></script>
+			
+		<script type="text/javascript">$.bigfoot();</script>
+			
+		<link rel="stylesheet" href="/css/bigfoot.css">
+	
 
 		<link rel="stylesheet" href="/css/style.css" media="screen" type="text/css" />
+	</head>
+  </head>
 		
-			<script type="text/javascript" src="/js/bigfoot.js"></script>
-				
-			<script type="text/javascript">$.bigfoot();</script>
-				
-			<link rel="stylesheet" href="/css/bigfoot.css">
-		
-</head>
+
 	
 	<title>JavaScript for Teachers</title>
 </head>
@@ -47,9 +52,11 @@
 	
 	<p>The Codecademy module leads right into this lovely project:</p>
 	
-	<div data-height="268" data-theme-id="2944" data-slug-hash="ytHIL" data-default-tab="null" data-user="bsk" class='codepen'><pre><code></code></pre>
+	<div data-height="505" data-theme-id="2944" data-slug-hash="ytHIL" data-default-tab="null" data-user="bsk" class='codepen'><pre><code></code></pre>
 <p>See the Pen <a href='http://codepen.io/bsk/pen/ytHIL/'>Technology (Random Colors)</a> by S-K (<a href='http://codepen.io/bsk'>@bsk</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 </div><script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+<div class="caption">Press <kbd>RERUN</kbd> a few times. What do you notice?</div>
 	
 	<p>Here, I'm going to highlight a few uses of JavaScript.</p>
 	
@@ -62,9 +69,51 @@
 
 <p>Here, I am using <code>onmouseover</code> to change the color of the navbar, and <code>onclick</code> to toggle the button. 
 	
-	<p>So, that's fun, but I want to focus on JavaScript functions. Why? Because they let you do awesome stuff like this: <sup id="fnref:this">
+	<p>So, that's fun, but I want to focus on JavaScript functions. Why? Because they let you do awesome stuff like this → <sup id="fnref:this">
 	        <a href="#fn:this" rel="footnote"></a>
 	   </sup>
+	   
+	   <a href="Bootstrap.html">Bootstrap</a> has a whole bunch of JavaScript built it. With a little bit of work, you can make this: 
+	   
+	  <div class="col-md-6 text-center">
+<a class="btn btn-primary btn-lg" data-toggle="collapse" href="#collapse" aria-expanded="false" aria-controls="collapseExample">
+  I can collapse part of a page!
+</a>
+<div class="collapse" id="collapse"><br>
+<div class="alert alert-danger">
+	<p>This is how I displayed the code in the <a href="/cs_lessons/typography/index.html">Typography lesson.</a></p>
+</div> 
+</div>
+<div class="caption">This is the <code>collapse.js</code> plugin. You can find it <a href="http://getbootstrap.com/javascript/#collapse">here</a>.</div>
+	  </div>
+	  
+	  <div class="col-md-6 text-center">
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  I can launch a modal.
+</button>
+
+<div class="caption">This is the <code>modal.js</code> plugin. You can find it <a href="http://getbootstrap.com/javascript/#modals">here</a>.</div>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Fun fact...</h4>
+      </div>
+      <div class="modal-body">
+        This is not a popup window. It is a <code>div</code> that shows up when you press a button. 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Ok, I get it.</button>
+        <button type="button" class="btn btn-primary">Please don't press this button.</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 	
 	<div class="footnotes"><ol>
 	    <li class="footnote" id="fn:this">
