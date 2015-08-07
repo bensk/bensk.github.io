@@ -5,7 +5,12 @@
   color: #FF4396;
 }
 
-p, ul{
+ul{
+	font-family: Muli;
+	font-size: 18px;
+}
+
+p{
 	font-family: Muli;
 	font-size: 18px;
 }
