@@ -14,3 +14,15 @@ p{
 	font-family: Muli;
 	font-size: 18px;
 }
+
+.glyph{
+	text-align: center;
+	font-size: 48px;
+}
+
+.navbar-fixed-bottom{
+	text-align: center;
+	font-size: 24px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
