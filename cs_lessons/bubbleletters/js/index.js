@@ -4,7 +4,7 @@ var green = [75, Math.floor(Math.random()*255), 40];
 var blue = [Math.floor(Math.random(150)*200), Math.floor(Math.random()*255), 55];
 var purple = [Math.floor(Math.random()*255), 50, 60];
 
-var myName = "JavaScript!";
+var myName = "Code!";
 var letterColors=[red,orange,green,blue,purple]
 if (1>0){
     bubbleShape="circle";
