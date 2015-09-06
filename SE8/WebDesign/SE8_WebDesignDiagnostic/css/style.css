@@ -1,0 +1,27 @@
+h1, h2{
+	font-family: Helvetica Neue;
+	font-size: 72px;
+	text-align: center;
+  color: #3C8FFF;
+}
+
+h2{
+	font-size: 36px;
+  /*color: gray;*/	
+}
+
+body{
+  font-family:Georgia;
+  font-size: 22px;
+  line-height: 1.5;
+  margin-left: 10%;
+  margin-right: 10%;
+ 
+}
+
+#goal{
+	text-align: center;
+	font-size: 48px;
+}
+
+
