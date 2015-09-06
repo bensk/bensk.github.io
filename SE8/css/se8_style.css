@@ -1,6 +1,4 @@
-body{
-	padding-bottom: 70px;
-}
+
 
 .page-header h1{
 	font-family: Fugaz One;
@@ -34,4 +32,8 @@ body{
 
 #code{
 	margin-top: -200px;
+}
+
+body{
+	padding-bottom: 150px;
 }
