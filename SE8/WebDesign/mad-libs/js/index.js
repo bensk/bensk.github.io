@@ -5,7 +5,7 @@ function madLibs() {
       var noun = document.getElementById("noun").value;
 	var exclamation = document.getElementById("exclamation").value;
 	var verb = document.getElementById("verb").value;
-      storyDiv.innerHTML = name + " " verb + " " + adjective + " " + noun + ", " + exclamation+"!";
+      storyDiv.innerHTML = name + " " +  verb + " a " + adjective + " " + noun + ", " + exclamation +"!";
     }
 
     var libButton = document.getElementById('lib-button');
