@@ -39,6 +39,21 @@
 	</div>
 		<button id="lib-button">lib it!</button>
 		<div id="story"></div>
+		
+<div data-height="310" data-theme-id="2944" data-slug-hash="qORgrM" data-default-tab="js" data-user="bsk" class='codepen'><pre><code>function madLibs() {
+      var storyDiv = document.getElementById(&quot;story&quot;);
+      var name = document.getElementById(&quot;name&quot;).value;
+      var adjective = document.getElementById(&quot;adjective&quot;).value;
+      var noun = document.getElementById(&quot;noun&quot;).value;
+	var exclamation = document.getElementById(&quot;exclamation&quot;).value;
+      storyDiv.innerHTML = name + &quot; married a &quot; + adjective + &quot; &quot; + noun + &quot;, &quot; + exclamation+&quot;!&quot;;
+    }
+
+    var libButton = document.getElementById(&#39;lib-button&#39;);
+    libButton.addEventListener(&#39;click&#39;, madLibs);</code></pre>
+<p>See the Pen <a href='http://codepen.io/bsk/pen/qORgrM/'>Mad Libs</a> by S-K (<a href='http://codepen.io/bsk'>@bsk</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+</div><script async src="//assets.codepen.io/assets/embed/ei.js"></script>		
+		
 </body>
 
 </html>
