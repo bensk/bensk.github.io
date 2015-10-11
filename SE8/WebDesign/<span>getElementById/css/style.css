@@ -9,5 +9,8 @@ p, #colors{
 	text-align: center;
 	font-weight: bold;
 	font-family: sans-serif;
+}
+
+#colors{
 	padding-top: 20%;
 }
