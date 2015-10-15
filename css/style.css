@@ -262,3 +262,10 @@ mark{
 #footer{
 	text-align: center;
 }
+
+#gSlides{
+
+	display: inline;
+	padding-bottom: 8px;
+	padding-right: 5px;
+}
