@@ -1,0 +1,42 @@
+h1 {
+		font-weight: bold;
+		font-size: 48px;
+}
+
+body {
+		font-family: Product Sans;
+		text-align: center;
+}
+p{
+	font-size: 10vw;
+}
+#google {
+		font-size: 170px;
+		font-weight: bold;
+}
+
+#o,
+#o1,
+#g1,
+#l,
+#e {
+		margin-left: -35px;
+}
+
+/*#g,
+#g1 {
+		color: #4285F4;
+}
+
+#o,
+#e {
+		color: #EA4335;
+}
+
+#o1 {
+		color: #FBBC05;
+}
+
+#l {
+		color: #34A853;
+}*/
