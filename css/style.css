@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Work+Sans:700,300);
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,400,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,300,400,700);
 
 ::selection {
   background: #FEF790; /* WebKit/Blink Browsers */
@@ -17,7 +17,7 @@
 
 body{
   font-family: Source Sans Pro;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 24px;
   padding-bottom: 70px;
 }
@@ -77,6 +77,7 @@ ol{
 
 #lessons p {
 	font-size: 16px;
+	font-weight: 400;
 	font-style: italic;
 	color: #828b94;
 }
@@ -177,7 +178,7 @@ ol{
 
 td{
 	font-family: Source Sans Pro;
-	font-weight: 100;
+	font-weight: 300;
 	font-size: 1.3em;
 }
 
@@ -187,7 +188,7 @@ th{
 }
 
 dt{
-	font-weight: 100;
+	font-weight: 700;
 }
 
 dd{
@@ -241,6 +242,13 @@ li{
 }
 
 strong, b{
+	font-weight: 700;
+}
+.lesson a{
+	font-weight: 700;
+}
+
+.lesson code{
 	font-weight: 400;
 }
 
