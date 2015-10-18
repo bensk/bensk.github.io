@@ -1,0 +1,19 @@
+h1{
+	font-family: Product Sans;
+	font-size: 72px;
+	text-align: center;
+}
+
+p{
+	font-size: 200px;
+	text-align: center;
+	padding-top: 10%;
+}
+
+
+::selection {
+  background: rgba(255, 255, 255, 0.5); /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: rgba(255, 255, 255, 0.5);; /* Gecko Browsers */
+}
