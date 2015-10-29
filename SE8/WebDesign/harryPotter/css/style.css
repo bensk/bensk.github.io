@@ -1,0 +1,40 @@
+img{
+  display: block;
+  margin: auto;
+  padding-top: 10%;
+}
+h1{
+  font-variant: small-caps;
+  font-size: 48px;
+  margin-top: -25px;
+  text-align: center;
+}
+
+h1, h2{
+	font-family: "Oswald", Helvetica Neue;
+	font-size: 72px;
+  
+}
+
+h2{
+	font-size: 36px;
+  color: #65CBC6;
+  /*color: gray;*/	
+  margin-left: 10%;
+}
+
+p{
+  font-family: "Crimson Text", Georgia;
+  
+  font-size: 22px;
+  line-height: 1.5;
+  margin-left: 10%;
+  margin-right: 10%;
+ 
+}
+
+.chapter{
+  color: #C8CACB;
+}
+
+
