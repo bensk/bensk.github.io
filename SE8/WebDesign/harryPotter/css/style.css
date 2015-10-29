@@ -6,7 +6,7 @@ img{
 h1{
   font-variant: small-caps;
   font-size: 48px;
-  margin-top: -25px;
+  margin-top: -10px;
   text-align: center;
 }
 
@@ -21,6 +21,7 @@ h2{
   color: #65CBC6;
   /*color: gray;*/	
   margin-left: 10%;
+  line-height: inherit;
 }
 
 p{
@@ -37,4 +38,10 @@ p{
   color: #C8CACB;
 }
 
+.footer{
+	text-align: center;
+}
 
+#animagus{
+	text-align: center;
+}

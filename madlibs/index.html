@@ -1,68 +1,52 @@
 <!DOCTYPE html>
-<html >
-  <head>
-    <meta charset="UTF-8">
-    <title>Mad Libs</title>
 
-
-
-
-        <link rel="stylesheet" href="css/style.css">
-
-
-
-
-  </head>
-
-  <body>
-
-    <html>
-
+<html>
 <head>
-	<link href='https://fonts.googleapis.com/css?family=Fugaz+One' rel='stylesheet' type='text/css'>
+    <meta charset="UTF-8">
 
-		<meta charset="utf-8" />
-		<title></title>
+    <title>Mad Libs</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Fugaz+One' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8">
+
+    <title></title>
 </head>
 
 <body>
-		<h1>Mad Libs</h1>
-	<div id="forms">
-		<p>Noun:</p>
-						<input type="text" id="noun">
-		<p>Adjective:</p>
-								<input type="text" id="adjective">
-		<p>Verb (past tense)</p><input type="text" id="verb">
-		<p>Someone's name:</p>
-										<input type="text" id="name">
-		<p>Exclamation: </p><input type="text" id="exclamation">
+    <h1>Mad Libs</h1>
 
-	</div>
-		<button id="lib-button">lib it!</button>
-		<div id="story"></div>
-		
-<div data-height="310" data-theme-id="2944" data-slug-hash="qORgrM" data-default-tab="js" data-user="bsk" class='codepen'><pre><code>function madLibs() {
+    <div id="forms">
+        <p>Noun:</p><input type="text" id="noun">
+
+        <p>Adjective:</p><input type="text" id="adjective">
+
+        <p>Verb (past tense)</p><input type="text" id="verb">
+
+        <p>Someone's name:</p><input type="text" id="name">
+
+        <p>Exclamation:</p><input type="text" id="exclamation">
+    </div><button id="lib-button">lib it!</button>
+
+    <div id="story"></div>
+
+    <div data-height="310" data-theme-id="2944" data-slug-hash="qORgrM" data-default-tab="js" data-user="bsk" class='codepen'>
+        <pre>
+<code>function madLibs() {
       var storyDiv = document.getElementById(&quot;story&quot;);
       var name = document.getElementById(&quot;name&quot;).value;
       var adjective = document.getElementById(&quot;adjective&quot;).value;
       var noun = document.getElementById(&quot;noun&quot;).value;
-	var exclamation = document.getElementById(&quot;exclamation&quot;).value;
+    var exclamation = document.getElementById(&quot;exclamation&quot;).value;
       storyDiv.innerHTML = name + &quot; married a &quot; + adjective + &quot; &quot; + noun + &quot;, &quot; + exclamation+&quot;!&quot;;
     }
 
     var libButton = document.getElementById(&#39;lib-button&#39;);
-    libButton.addEventListener(&#39;click&#39;, madLibs);</code></pre>
-<p>See the Pen <a href='http://codepen.io/bsk/pen/qORgrM/'>Mad Libs</a> by S-K (<a href='http://codepen.io/bsk'>@bsk</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-</div><script async src="//assets.codepen.io/assets/embed/ei.js"></script>		
-		
+    libButton.addEventListener(&#39;click&#39;, madLibs);</code>
+</pre>
+
+        <p>See the Pen <a href='http://codepen.io/bsk/pen/qORgrM/'>Mad Libs</a> by S-K (<a href='http://codepen.io/bsk'>@bsk</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+    </div><script async="" src="//assets.codepen.io/assets/embed/ei.js" type="text/javascript">
+</script><script src="js/index.js" type="text/javascript">
+</script>
 </body>
-
-</html>
-
-        <script src="js/index.js"></script>
-
-
-
-
-  </body>
 </html>
