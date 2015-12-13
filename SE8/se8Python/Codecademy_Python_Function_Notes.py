@@ -29,4 +29,14 @@ print math.sqrt(25)
 # Exercise 11
 import math            # Imports the math module
 everything = dir(math) # Sets everything to a list of things from math
-print everything       # Prints 'em all! 
+print everything       # Prints 'em all!
+
+# Exercise 17 (with some additions...)
+def shut_down(s):
+    if s == "yes":
+        print "Shutting down"
+    elif s == "no":
+        print "Shutdown aborted"
+    else:
+        print "Sorry"
+shut_down(raw_input("What should I do?"))
