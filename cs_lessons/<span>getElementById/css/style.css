@@ -1,0 +1,16 @@
+h1{
+	font-size: 48px;
+	text-align: center;
+	font-family: sans-serif;
+	padding-top: 10%;
+}
+p, #colors{
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+#colors{
+	padding-top: 20%;
+}
