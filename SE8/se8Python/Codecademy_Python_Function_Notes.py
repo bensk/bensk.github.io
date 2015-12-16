@@ -1,3 +1,6 @@
+# If you want emoji in strings in Python 2.7, write
+print u"🐙"
+
 # Exercise 2
 def spam():
     """This is silly"""
