@@ -1,19 +1,19 @@
 print "The _______ of Romeo & _______"
 print ".............................."
 
-def madLibs():
-    plural_noun = raw_input("plural noun".upper()).upper()
-    plural_noun1 = raw_input("Another plural noun".upper()).upper()
-    place = raw_input("place".upper()).upper()
-    noun = raw_input("noun".upper()).upper()
-    noun1 = raw_input("Another noun".upper()).upper()
-    adjective = raw_input("adjective".upper()).upper()
-    adjective1 = raw_input("One more adjective".upper()).upper()
-    verb = raw_input("verb".upper()).upper()
-    verb1 = raw_input("One more verb".upper()).upper()
-    number = raw_input("a number".upper()).upper()
-    body_part = raw_input("a body part".upper()).upper()
+plural_noun = raw_input("plural noun".upper()).upper()
+plural_noun1 = raw_input("Another plural noun".upper()).upper()
+place = raw_input("place".upper()).upper()
+noun = raw_input("noun".upper()).upper()
+noun1 = raw_input("Another noun".upper()).upper()
+adjective = raw_input("adjective".upper()).upper()
+adjective1 = raw_input("One more adjective".upper()).upper()
+verb = raw_input("verb".upper()).upper()
+verb1 = raw_input("One more verb".upper()).upper()
+number = raw_input("a number".upper()).upper()
+body_part = raw_input("a body part".upper()).upper()
 
+def madLibs():
 
     print "Two %s , both alike in dignity," % plural_noun
     print "In fair %s , where we lay our scene," % place
