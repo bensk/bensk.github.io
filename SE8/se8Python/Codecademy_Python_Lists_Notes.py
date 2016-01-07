@@ -84,3 +84,62 @@ for number in my_list: # "for" runs for how many items there are in a list
     print 2 * number
 
 # Exercise 9
+
+start_list = [5, 3, 1, 2, 4]
+square_list = []
+
+# Your code here!
+for numbers in start_list:
+    square_list.append(numbers**2)
+
+print square_list.sort()
+
+# Exercise 10
+
+# Dictionaries are like lists, but they store stuff with a key
+# Assigning a dictionary with three key-value pairs to residents:
+residents = {'Puffin' : 104, 'Sloth' : 105, 'Burmese Python' : 106}
+#				key		value
+
+# Used for name/password, name/phone number, etc.
+
+print residents['Puffin'] # Prints Puffin's room number
+
+# Your code here!
+print residents['Sloth']
+print residents['Burmese Python']
+
+# Exercise 11
+menu = {} # Empty dictionary
+menu['Chicken Alfredo'] = 14.50 # Adding new key-value pair
+print menu['Chicken Alfredo']
+
+# Your code here: Add some dish-price pairs to menu!
+menu['Pasta'] = 7.00
+menu['Mozarella sticks'] = 4.00
+menu['Garlic bread'] = 2.00
+
+
+print "There are " + str(len(menu)) + " items on the menu."
+print menu
+
+# Exercise 12
+# key - animal_name : value - location
+zoo_animals = { 'Unicorn' : 'Cotton Candy House',
+'Sloth' : 'Rainforest Exhibit',
+'Bengal Tiger' : 'Jungle House',
+'Atlantic Puffin' : 'Arctic Exhibit',
+'Rockhopper Penguin' : 'Arctic Exhibit'}
+# A dictionary (or list) declaration may break across multiple lines
+
+# Removing the 'Unicorn' entry. (Unicorns are incredibly expensive.)
+del zoo_animals['Unicorn']
+
+# Your code here!
+del zoo_animals['Sloth']
+del zoo_animals['Bengal Tiger']
+zoo_animals['Rockhopper Penguin'] = 'Panda'
+
+
+
+print zoo_animals
