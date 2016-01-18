@@ -235,5 +235,84 @@ stock = {
 
 for key in prices:
     print key
-    print "price: %d" %prices[key]
-    print "stock: %d" %stock[key]
+    print "price: %s" % prices[key] # Make sure to use %s here.
+    print "stock: %s" % stock[key]
+
+# Exercise 9
+prices = {
+    "banana" : 4,
+    "apple"  : 2,
+    "orange" : 1.5,
+    "pear"   : 3,
+}
+stock = {
+    "banana" : 6,
+    "apple"  : 0,
+    "orange" : 32,
+    "pear"   : 15,
+}
+
+for key in prices:
+    print key
+    print "price: %s" % prices[key]
+    print "stock: %s" % stock[key]
+
+total = 0
+for key in prices:
+    print prices[key] * stock[key]
+    total = total + prices[key] * stock[key]
+
+print total
+
+# Exercise 10
+groceries = ['banana', 'orange', 'apple']
+
+# Exercise 11
+shopping_list = ["banana", "orange", "apple"]
+
+stock = {
+    "banana": 6,
+    "apple": 0,
+    "orange": 32,
+    "pear": 15
+}
+
+prices = {
+    "banana": 4,
+    "apple": 2,
+    "orange": 1.5,
+    "pear": 3
+}
+
+# Write your code below!
+def compute_bill(food):
+    total = 0
+    for item in food:
+        total = total + prices[item] # Kind of understand this one...
+    return total
+
+#Exercise 12
+shopping_list = ["banana", "orange", "apple"]
+
+stock = {
+    "banana": 6,
+    "apple": 0,
+    "orange": 32,
+    "pear": 15
+}
+
+prices = {
+    "banana": 4,
+    "apple": 2,
+    "orange": 1.5,
+    "pear": 3
+}
+
+# Write your code below!
+def compute_bill(food):
+    total = 0
+    for item in food:
+        if stock[item]>0: # Adding a conditional inside a loop inside a function inside a...
+            total = total + prices[item]
+            stock[item]=stock[item]-1
+    return total
