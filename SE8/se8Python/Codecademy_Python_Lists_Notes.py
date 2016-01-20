@@ -144,7 +144,10 @@ zoo_animals['Rockhopper Penguin'] = 'Panda'
 
 print zoo_animals
 
-"""SuperMarket"""
+# ------------------------------
+		"""SuperMarket"""
+# ------------------------------
+
 #Exercise 1
 names = ["Adam","Alex","Mariah","Martine","Columbus"]
 
