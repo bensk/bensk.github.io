@@ -10,3 +10,4 @@ average = sum(float_grades)/len(float_grades)
 
 # Now that we're ready to print, we can just str() our average variable.
 print "Your average is a " + str(average)
+ 
