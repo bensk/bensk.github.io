@@ -1,0 +1,56 @@
+body {
+  font-family: Open Sans;
+  font-size: 24px;
+  text-align: center;
+  color: #FFF68F;
+  background-image: url("http://www.wvnh.com/wp-content/uploads/2013/08/town-square-night-sky.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: black;
+   
+}
+
+h1 {
+  font-size: 72px;
+  font-family: Fugaz One;
+  text-align: center;
+  background: -webkit-linear-gradient(#73D4FF, #6C62FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+button {
+  height: 50px;
+  font-family: Fugaz One;
+  font-size: 22px;
+  color: #FFF68F;
+  background-color: black;
+  font-variant: small-caps;
+}
+
+p{
+  text-shadow: 2px 2px #ff0000;
+
+}
+
+#story {
+  font-size: 24px;
+  text-align: center;
+  padding-top: 35px;
+  /*   font-family: cursive; */
+  line-height: 1;
+}
+
+input {
+  color: #FFF68F;
+  text-align: center;
+  font-size: 24px;
+  border: 4px solid white;
+  -webkit-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1), 0 0 16px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1), 0 0 16px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1), 0 0 16px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.5);
+  margin: 0 0 10px 0;
+  background-color: black;
+}
