@@ -15,6 +15,10 @@
   color: #FF4396;
 }
 
+html {
+    overflow-y: scroll;
+}
+
 body{
   font-family: Source Sans Pro;
   font-weight: 400;
@@ -165,13 +169,13 @@ ol{
 	text-align: right;
 	color: white;
 	text-shadow:1px 1px 17px #1FABF1;
-	margin-top: 240px;	
+	margin-top: 240px;
 	margin-right: 5px;
 }
 
 /* Needed to add padding to the columns, not just the body, so that the fixed nav at the bottom doesn't overlay. Smart! */
 /*
-.col-md-3, .col-md-12{ 
+.col-md-3, .col-md-12{
 	padding-bottom: inherit;
 }
 */
@@ -196,7 +200,7 @@ dd{
 	color: #828b94;
 	font-style: italic;
 	font-size: .8em;
-	
+
 }
 
 .titlecard{
@@ -204,21 +208,21 @@ dd{
 /* 	display: table;  */
 	overflow: hidden;
 	}
-	
+
 .titlecard h1{
 	text-align: center;
 	padding-top: auto;
 	padding-bottom: auto;
 	text-shadow: 1px 1px 12px white;
 	}
-	
+
 .titlecard p{
 
 	vertical-align: middle;
 	font-family: Quando;
 	font-size: 60px;
 }
-	
+
 .titlecard img{
 	position: absolute;
 	width: 100%;
@@ -234,7 +238,7 @@ dd{
 	padding-bottom: 0px;
 	text-align: left;
 	background-color: red;
-	color: white; 
+	color: white;
 }
 
 li{
