@@ -15,6 +15,7 @@
   color: #FF4396;
 }
 
+/*Trying to show scrollbar*/
 html {
     overflow-y: scroll;
 }
