@@ -7,7 +7,9 @@
 ::-moz-selection {
   background: #FEF790; /* Gecko Browsers */
 }
-
+#advancedcs{
+	background-color: blue;
+}
 .page-header h1{
 	font-family: Fugaz One;
   font-size: 72px;
