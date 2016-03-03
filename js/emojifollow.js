@@ -1,7 +1,7 @@
 
 
 // Write something to select a random emoji
-var myArray = ['⚡️', '💩', '💡', '🍑', '👍', '🌮', '👾', '🖥'];
+var myArray = ['⚡️', '💩', '💡', '🍑', '👍', '🌮', '👾', '🖥', '🤓', '🐙', '🐳', '🐠', '🚀'];
 var rand = myArray[Math.floor(Math.random() * myArray.length)];
 
  ! function() {
