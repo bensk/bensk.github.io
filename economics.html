@@ -69,6 +69,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="/js/jquery.tablesorter/jquery.tablesorter.js" type="text/javascript" src=""></script> 
 </head>
 
 <body>
@@ -78,6 +79,15 @@
 var e=document.createElement("div")
 e.innerHTML="💸",e.style.fontSize="30px",e.style.position="absolute",e.style.zIndex=9999,e.style.pointerEvents="none",document.body.appendChild(e),window.addEventListener("mousemove",function(t){e.style.left=t.pageX+"px",e.style.top=t.pageY+"px"})}()
 
+	</script>
+	
+	<script>
+		$(document).ready(function() 
+    { 
+        $(".table").tablesorter(); 
+    } 
+); 
+   
 	</script>
     <div class="container">
         <div class="page-header">
