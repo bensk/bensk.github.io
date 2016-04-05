@@ -6,3 +6,15 @@ body{
 h1, h2{
     font-weight: bolder;
 }
+
+.page-header h1{
+    font-family: "Yeseva One";
+}
+
+a {
+    color: #FF6600;
+}
+
+ .nav-pills active {
+    background-color: #FF6600;
+}
