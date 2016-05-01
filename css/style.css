@@ -281,3 +281,9 @@ mark{
 	padding-bottom: 8px;
 	padding-right: 5px;
 }
+
+.btn-block{
+	font-size: 32px;
+	font-weight: bold
+/* 	font-family: Fugaz One; */
+}
