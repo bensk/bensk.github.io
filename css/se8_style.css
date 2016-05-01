@@ -1,9 +1,0 @@
-input[type=checkbox]:checked + label.strikethrough{
-  text-decoration: line-through;
-  color: grey;
-  font-size: 12px;
-}
-
-label{
-	font-size: 18px;
-}
