@@ -283,18 +283,19 @@ mark{
 	padding-right: 5px;
 }
 
-.btn-block{
+.btn-lg{
 	font-size: 30px;
 	font-weight: bold;
 	border-radius: 5px;
 	margin-bottom: 30px;
 	background: #70E6BF;
 	border: none;
+	width: 200px;
 /* 	box-shadow: 1px 1px 10px grey; */
 /* 	font-family: Fugaz One; */
 }
 
-.btn-block:hover{
+.btn-lg:hover{
 	background: rgba(112, 230, 187, 0.71);
 }
 
