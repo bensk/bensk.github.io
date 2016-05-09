@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>SE8 Research Project</title>
+
+
+
+
+        <link rel="stylesheet" href="css/style.css">
+
+
+
+
+  </head>
+
+  <body>
+
+    <head>
+	<link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Julius+Sans+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</head>
+<div class="container">
+	<div class="page-header">
+	<h1>Air Pollution Research Project <br /> <small>Software Engineering 8</small></h1>
+	</div>
+	<h2>Background</h2>
+	<p>Minorities in the United States are <a href="http://www.theguardian.com/us-news/2015/mar/09/fresh-direct-south-bronx-clean-air-envirßßßonmental-racism"> exposed to 38% higher levels of nitrogen dioxide, a dangerous pollutant</a>. In other words, white
+		Americans literally breathe different air than black and Latino Americans. </p>
+
+	<p>These differences can be hard to understand and harder to believe, so we decided to build a device that could show these difference in a simple and accessible way.</p>
+
+	<hr />
+<div class = "container">
+	<h2>Design</h2>
+
+	<div class="col-md-6">
+		<b >Circuit 0.1</b>
+		<img src="http://www.hackerscapes.com/wp-content/uploads/2014/11/gas-sensor_bb1.jpg" alt="" class="img-responsive " />
+	</div>
+	<div class="col-md-6">
+		<p>This is the design and code for our first circuit. </p>
+
+		<h3><code>Arduino Code</code></h3>
+		<b>Thanks to Elizabeth, Mamadou, and Tiara!</b>
+<pre>
+<font color="#000000">#include</font> <font color="#434f54">&lt;</font><b><font color="#d35400">LiquidCrystal</font></b><font color="#434f54">.</font><font color="#000000">h</font><font color="#434f54">&gt;</font>
+
+<font color="#434f54">// initialize the library with the numbers of the interface pins</font>
+<b><font color="#d35400">LiquidCrystal</font></b> <font color="#000000">lcd</font><font color="#000000">(</font><font color="#000000">12</font><font color="#434f54">,</font> <font color="#000000">11</font><font color="#434f54">,</font> <font color="#000000">5</font><font color="#434f54">,</font> <font color="#000000">4</font><font color="#434f54">,</font> <font color="#000000">3</font><font color="#434f54">,</font> <font color="#000000">2</font><font color="#000000">)</font><font color="#000000">;</font>
+
+<font color="#00979c">int</font> <font color="#000000">sensorValue</font><font color="#000000">;</font>
+<font color="#00979c">int</font> <font color="#000000">pin8</font> <font color="#434f54">=</font> <font color="#000000">8</font><font color="#000000">;</font>
+
+<font color="#00979c">void</font> <font color="#5e6d03">setup</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+ &nbsp;<font color="#434f54">// set up the LCD's number of columns and rows:</font>
+ &nbsp;<font color="#000000">lcd</font><font color="#434f54">.</font><font color="#d35400">begin</font><font color="#000000">(</font><font color="#000000">16</font><font color="#434f54">,</font> <font color="#000000">2</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;<font color="#434f54">// Print a message to the LCD.</font>
+ &nbsp;<font color="#000000">lcd</font><font color="#434f54">.</font><font color="#d35400">print</font><font color="#000000">(</font><font color="#00979c">"sensor value"</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;&nbsp;<font color="#d35400">pinMode</font><font color="#000000">(</font><font color="#000000">pin8</font><font color="#434f54">,</font> <font color="#00979c">OUTPUT</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#000000">}</font>
+
+<font color="#00979c">void</font> <font color="#5e6d03">loop</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+ &nbsp;&nbsp;&nbsp;<font color="#000000">sensorValue</font> <font color="#434f54">=</font> <font color="#d35400">analogRead</font><font color="#000000">(</font><font color="#000000">0</font><font color="#000000">)</font><font color="#000000">;</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#434f54">// read analog input pin 0</font>
+ &nbsp;<b><font color="#d35400">Serial</font></b><font color="#434f54">.</font><font color="#d35400">print</font><font color="#000000">(</font><font color="#000000">sensorValue</font><font color="#434f54">,</font> <font color="#00979c">DEC</font><font color="#000000">)</font><font color="#000000">;</font> &nbsp;<font color="#434f54">// prints the value read</font>
+ &nbsp;<b><font color="#d35400">Serial</font></b><font color="#434f54">.</font><font color="#d35400">println</font><font color="#000000">(</font><font color="#00979c">"ppm"</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;<font color="#5e6d03">if</font> <font color="#000000">(</font><font color="#000000">sensorValue</font> <font color="#434f54">&gt;</font> <font color="#000000">500</font><font color="#000000">)</font> <font color="#000000">{</font>
+ &nbsp;&nbsp;&nbsp;<font color="#434f54">// Activate digital output pin 8 - the LED will light up</font>
+ &nbsp;&nbsp;&nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">pin8</font><font color="#434f54">,</font> <font color="#00979c">HIGH</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;<font color="#000000">}</font>
+ &nbsp;<font color="#5e6d03">else</font> <font color="#000000">{</font>
+ &nbsp;&nbsp;&nbsp;<font color="#434f54">// Deactivate digital output pin 8 - the LED will not light up</font>
+ &nbsp;&nbsp;&nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">pin8</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;&nbsp;&nbsp;
+ &nbsp;<font color="#434f54">// set the cursor to column 0, line 1</font>
+ &nbsp;<font color="#434f54">// (note: line 1 is the second row, since counting begins with 0):</font>
+ &nbsp;<font color="#000000">lcd</font><font color="#434f54">.</font><font color="#d35400">setCursor</font><font color="#000000">(</font><font color="#000000">0</font><font color="#434f54">,</font> <font color="#000000">1</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;<font color="#434f54">// print the number of seconds since reset:</font>
+ <font color="#000000">lcd</font><font color="#434f54">.</font><font color="#d35400">print</font><font color="#000000">(</font><font color="#000000">sensorValue</font><font color="#000000">)</font><font color="#000000">;</font>
+ <font color="#000000">}</font>
+
+ <font color="#d35400">delay</font><font color="#000000">(</font><font color="#000000">50</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#000000">}</font>
+
+</pre>
+	</div>
+	</div>
+
+    <h2>Revisions</h2>
+
+
+
+<p>🔑 Combine the following sentences into <b>at least</b> two paragraphs:</p>
+<blockquote >
+<p>We iterated our circuit design because/but/so...</p>
+
+<p>We added a screen to our circuit because/but/so...</p>
+</blockquote>
+	<hr />
+	</div>
+		<h2>Testing Locations</h2>
+	<div class="col-xs-6">
+
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3019.6500645081237!2d-73.92272278431692!3d40.813682939325055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f5c5ad886645%3A0x44e3eccd41998200!2sThe+Laboratory+School+of+Finance+%26+Technology!5e0!3m2!1sen!2sus!4v1459105534616" width=100% height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+
+</div>
+<div class="col-xs-6">
+	<p>Our first location was our school.</p>
+	<b>We tested in the following locations:</b>
+	<ul>
+		<li>...</li>
+		<li>...</li>
+		<li>...</li>
+	</ul>
+</div>
+
+
+
+<h2>Code</h2>
+
+<pre>
+<font color="#00979c">void</font> <font color="#5e6d03">setup</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+ &nbsp;<font color="#434f54">// put your setup code here, to run once:</font>
+
+<font color="#000000">}</font>
+
+<font color="#00979c">void</font> <font color="#5e6d03">loop</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+ &nbsp;<font color="#434f54">// put your main code here, to run repeatedly:</font>
+
+<font color="#000000">}</font>
+
+</pre>
+
+<div class="container">
+	<div class="col-md-12">
+<h2>Data</h2>
+		<p>We collected data throughout the school building and the surrounding neighborhood.</p>
+<p>We entered our data into spreadsheets because/but/so...</p>
+<p>We used the <code>=COUNTBLANK()</code> formula in our spreadsheets because...</p>
+<p>We used the <code>=AVERAGE()</code> formula in our spreadhseets because...</p>
+
+
+
+
+  </body>
+</html>
