@@ -47,7 +47,7 @@ h1{
 }
 
 h2{
-  font-family: "Oleo Script";
+  font-family: "proxima-nova";
   font-size: 48px;
   font-weight: bold;
   color: #424242;
@@ -298,3 +298,4 @@ mark{
 .btn-lg:hover{
 	background: rgba(112, 230, 187, 0.71);
 }
+
