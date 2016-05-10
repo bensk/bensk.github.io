@@ -28,7 +28,7 @@ html {
 }
 
 body{
-  font-family: Source Sans Pro;
+  font-family: "proxima-nova";
   font-weight: 400;
   font-size: 24px;
   padding-bottom: 70px;
@@ -298,5 +298,3 @@ mark{
 .btn-lg:hover{
 	background: rgba(112, 230, 187, 0.71);
 }
-
-
