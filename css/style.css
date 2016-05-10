@@ -57,14 +57,14 @@ h2{
 
 h3{
   font-size: 48px;
-  font-family: Source Sans Pro;
+  font-family: "proxima-nova";
   font-weight: 700;
   color: #268ED5;
   text-align: center;
 }
 
 h4{
-	font-family: Source Sans Pro;
+	font-family: "proxima-nova";
 	 font-weight: 700;
 	font-size: 36px;
 	text-align: center;
@@ -189,13 +189,13 @@ ol{
 */
 
 td{
-	font-family: Source Sans Pro;
+	font-family: "proxima-nova";
 	font-weight: 300;
 	font-size: 1.3em;
 }
 
 th{
-	font-family: Source Sans Pro;
+	font-family: "proxima-nova";
 	font-weight: 400;
 }
 
