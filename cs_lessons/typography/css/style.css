@@ -3,14 +3,14 @@
 
 /* Small screens (default) */
 html { font-size: 100%; }
- 
+
 /* Medium screens (640px) */
-@media (min-width: 40rem) { 
+@media (min-width: 40rem) {
   html { font-size: 120%; }
 }
- 
+
 /* Large screens (1024px) */
-@media (min-width: 64rem) { 
+@media (min-width: 64rem) {
   html { font-size: 150%; }
 }
 
@@ -39,13 +39,13 @@ html { font-size: 100%; }
   Color: white;
   Text-align: center;
   Background-image: url("http://www.global-type.com/wp-content/uploads/2013/09/typesetting-blocks.jpg");
-  
+
 }
 
 #minilesson h1 {
   font-size: 16vw;
   background-color: rgba(255,255,255,0.3);
-  
+
 }
 
 #minilesson p {
@@ -72,12 +72,12 @@ html { font-size: 100%; }
   Font-family: sans-serif;
   Font-size: 150px;
   Text-align: center;
-  text-shadow: 2px 2px #40DBE5;  
+  text-shadow: 2px 2px #40DBE5;
 }
 
 #fonts {
   Color: white;
-  
+
   Background-image: Url("http://www.global-type.com/wp-content/uploads/2013/09/typesetting-blocks.jpg");
 }
 
