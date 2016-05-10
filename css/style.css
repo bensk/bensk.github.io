@@ -28,7 +28,7 @@ html {
 }
 
 body{
-  font-family: "proxima-nova";
+  font-family: Source Sans Pro;
   font-weight: 400;
   font-size: 24px;
   padding-bottom: 70px;
@@ -47,7 +47,7 @@ h1{
 }
 
 h2{
-  font-family: "proxima-nova";
+  font-family: Source Sans Pro;
   font-size: 48px;
   font-weight: bold;
   color: #424242;
@@ -57,14 +57,14 @@ h2{
 
 h3{
   font-size: 48px;
-  font-family: "proxima-nova";
+  font-family: Source Sans Pro;
   font-weight: 700;
   color: #268ED5;
   text-align: center;
 }
 
 h4{
-	font-family: "proxima-nova";
+	font-family: Source Sans Pro;
 	 font-weight: 700;
 	font-size: 36px;
 	text-align: center;
@@ -189,13 +189,13 @@ ol{
 */
 
 td{
-	font-family: "proxima-nova";
+	font-family: Source Sans Pro;
 	font-weight: 300;
 	font-size: 1.3em;
 }
 
 th{
-	font-family: "proxima-nova";
+	font-family: Source Sans Pro;
 	font-weight: 400;
 }
 
@@ -298,4 +298,3 @@ mark{
 .btn-lg:hover{
 	background: rgba(112, 230, 187, 0.71);
 }
-
