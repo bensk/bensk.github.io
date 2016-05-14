@@ -15,32 +15,25 @@ function setup() {
     // text(words[index],10,50);  // Displays one of the four words
 
   button801 = createButton("801")
-  button801.position(20, 10);
+  button801.position(windowWidth / 7, 10);
   button801.mousePressed(popsicle801);
   button803 = createButton("803")
-  button803.position(120, 10);
+  button803.position(3 * windowWidth / 7, 10);
   button803.mousePressed(popsicle803);
   button804 = createButton("804")
-  button804.position(220, 10);
+  button804.position(5 * windowWidth / 7, 10);
   button804.mousePressed(popsicle804);
 
 }
 
-// function draw(){
-//   fill('white')
-//   rect(0,0,50,15)
-//   fill('black')
-//   textSize(12)
-//   text(mouseX + " , " + mouseY,0,12)
 
-// }
 
 function popsicle801() {
   background('white')
     // line(0, 0, 50, 50)
     // text(words[1], 10, 50)
   textSize(32)
-  text(String(c_801[floor(random(c_801.length))]), 20, 80); // Displays one of the four words
+  text(String(c_801[floor(random(c_801.length))]), windowWidth / 7, 80); // Displays one of the four words
 
 }
 
@@ -49,7 +42,7 @@ function popsicle803() {
     // line(0, 0, 50, 50)
     // text(words[1], 10, 50)
   textSize(32)
-  text(String(c_803[floor(random(c_801.length))]), 120, 80); // Displays one of the four words
+  text(String(c_803[floor(random(c_801.length))]), 3 * windowWidth / 7, 80); // Displays one of the four words
 
 }
 
@@ -58,6 +51,11 @@ function popsicle804() {
     // line(0, 0, 50, 50)
     // text(words[1], 10, 50)
   textSize(32)
-  text(String(c_804[floor(random(c_801.length))]), 220, 80); // Displays one of the four words
+  text(String(c_804[floor(random(c_801.length))]), 5 * windowWidth / 7, 80); // Displays one of the four words
 
+}
+
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
