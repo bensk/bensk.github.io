@@ -16,13 +16,13 @@ function setup() {
 
   button801 = createButton("801")
   button801.position(windowWidth / 7, 10);
-  button801.mousePressed(popsicle801);
+  button801.touchStarted(popsicle801);
   button803 = createButton("803")
   button803.position(3 * windowWidth / 7, 10);
-  button803.mousePressed(popsicle803);
+  button803.touchStarted(popsicle803);
   button804 = createButton("804")
   button804.position(5 * windowWidth / 7, 10);
-  button804.mousePressed(popsicle804);
+  button804.touchStarted(popsicle804);
 
 }
 
