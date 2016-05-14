@@ -33,7 +33,7 @@ function popsicle801() {
     // line(0, 0, 50, 50)
     // text(words[1], 10, 50)
   textSize(32)
-  text(String(c_801[floor(random(c_801.length))]), windowWidth / 7, 80); // Displays one of the four words
+  text(String(c_801[floor(random(c_801.length))]), windowWidth / 7, 100); // Displays one of the four words
 
 }
 
@@ -42,7 +42,7 @@ function popsicle803() {
     // line(0, 0, 50, 50)
     // text(words[1], 10, 50)
   textSize(32)
-  text(String(c_803[floor(random(c_801.length))]), 3 * windowWidth / 7, 80); // Displays one of the four words
+  text(String(c_803[floor(random(c_801.length))]), 3 * windowWidth / 7, 100); // Displays one of the four words
 
 }
 
@@ -51,7 +51,7 @@ function popsicle804() {
     // line(0, 0, 50, 50)
     // text(words[1], 10, 50)
   textSize(32)
-  text(String(c_804[floor(random(c_801.length))]), 5 * windowWidth / 7, 80); // Displays one of the four words
+  text(String(c_804[floor(random(c_801.length))]), 5 * windowWidth / 7, 100); // Displays one of the four words
 
 }
 
