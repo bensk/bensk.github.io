@@ -16,10 +16,13 @@
     src: url(http://bthdonohue.com/klim_fonts/fonts/national/NationalWeb-Light.woff) format('woff');
 }
 
+svg .text{
+    font-family: Fugaz One;
+}
+
 body {
     margin: 0;
     font-family: 'TiemposText', 'Georgia', sans-serif;
-    background-color: #F8F2E3;
 }
 
 a, a:visited {
@@ -129,19 +132,19 @@ a.block:hover {
 #eightgrade {
     background-image: url('../img/8thGrade.svg');
     background-color: #E32173;
-    background-size:75%;
+    background-size:90%;
 }
 
 #ninthgrade {
     background-image: url('../img/9thGradeCS.svg');
     background-color: #40123D;
-    background-size: 75%;
+    background-size: 90%;
 }
 
 #economics {
     background-image: url('../img/economics.svg');
     background-color: #EDB538;
-    background-size: 75%;
+    background-size: 90%;
 }
 
 #github {
@@ -152,7 +155,7 @@ a.block:hover {
 #eleventhgrade {
     background-image: url('../img/11thGradeCS.svg');
     background-color: #00A6A3;
-    background-size: 75%;
+    background-size: 90%;
 }
 
 #instapaper {
@@ -163,21 +166,21 @@ a.block:hover {
 #name{
     background-image: url('../img/name.svg');
     background-color: rgb(248, 242, 227);
-    background-size: 50%;
+    background-size: 90%;
     height: 300px;
 }
 
 #email{
     background-image: url('../img/gmail.svg');
     background-color: rgb(248, 242, 227);
-    background-size: 75%;
+    background-size: 90%;
     height: 300px;
 }
 
 #pd{
     background-image: url('../img/pd.svg');
     background-color: rgb(248, 242, 227);
-    background-size: 75%;
+    background-size: 90%;
     height: 300px;
 }
 
