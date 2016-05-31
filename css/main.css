@@ -1,0 +1,215 @@
+@font-face {
+    font-family: 'TiemposText';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url(http://bthdonohue.com/klim_fonts/fonts/tiempos/TiemposTextWeb-Regular.eot) format('embedded-opentype');
+    src: url(http://bthdonohue.com/klim_fonts/fonts/tiempos/TiemposTextWeb-Regular.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'National';
+    font-weight: lighter;
+    font-style: normal;
+
+    src: url(http://bthdonohue.com/klim_fonts/fonts/national/NationalWeb-Light.eot) format('embedded-opentype');
+    src: url(http://bthdonohue.com/klim_fonts/fonts/national/NationalWeb-Light.woff) format('woff');
+}
+
+body {
+    margin: 0;
+    font-family: 'TiemposText', 'Georgia', sans-serif;
+}
+
+a, a:visited {
+    color: rgb(150, 150, 150);
+    text-decoration: none;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
+
+.container {
+    overflow: hidden;
+    width: 50%;
+    height: 33%;
+    float: left;
+}
+
+#title{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+
+.container:first-child, .container:nth-child(2) {
+    height: 34%;
+}
+
+.about {
+    font-size: 24px;
+    padding: 25px 50px;
+    border-top: 1px solid rgb(205, 205, 205);
+}
+
+.about p {
+    max-width: 768px;
+    line-height: 1.7;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+a.block {
+    transition: all 200ms ease-out;
+}
+
+a.block:hover {
+    transform: scale(1.1);
+    transition: all 200ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+}
+
+#avatar {
+    background-image: url('../img/BSK.png');
+    background-color: black;
+    background-size: 100%;
+}
+
+#info {
+    background-color: white;
+}
+
+.text_container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    text-align: center;
+}
+
+.text {
+    position: relative;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.text div {
+    padding: 0px 10px;
+}
+
+.name {
+    font-size: 46px;
+}
+
+.tagline {
+    font-size: 26px;
+    font-family: 'National', 'HelveticaNeue-Light', 'Helvetica', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+#eightgrade {
+    background-image: url('../img/8thGrade.svg');
+    background-color: #E32173;
+    background-size:90%;
+}
+
+#ninthgrade {
+    background-image: url('../img/9thGradeCS.svg');
+    background-color: #40123D;
+    background-size: 90%;
+}
+
+#economics {
+    background-image: url('../img/economics.svg');
+    background-color: #EDB538;
+    background-size: 90%;
+}
+
+#github {
+    background-image: url('../img/github.svg');
+    background-color: black;
+}
+
+#eleventhgrade {
+    background-image: url('../img/11thGradeCS.svg');
+    background-color: #00A6A3;
+    background-size: 90%;
+}
+
+#instapaper {
+    background-image: url('../img/instapaper.svg');
+    background-color: rgb(248, 242, 227);
+}
+
+#name{
+    background-image: url('../img/name.svg');
+    background-color: rgb(248, 242, 227);
+    background-size: 90%;
+    height: 300px;
+}
+
+#email{
+    background-image: url('../img/gmail.svg');
+    background-color: rgb(248, 242, 227);
+    background-size: 90%;
+    height: 300px;
+}
+
+#pd{
+    background-image: url('../img/pd.svg');
+    background-color: rgb(248, 242, 227);
+    background-size: 90%;
+    height: 300px;
+}
+
+#hidden{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .name {
+        font-size: 38px;
+    }
+
+    .tagline {
+        font-size: 22px;
+    }
+
+    .about {
+        font-size: 22px;
+        padding: 25px 30px;
+    }
+}
+
+@media screen and (max-width: 535px) {
+    .name {
+        font-size: 26px;
+    }
+
+    .tagline {
+        font-size: 14px;
+    }
+
+    .about {
+        font-size: 18px;
+        padding: 25px 25px;
+    }
+}
