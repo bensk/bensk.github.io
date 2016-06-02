@@ -1,0 +1,23 @@
+@font-face {
+        font-family: "Proxima Nova";
+        font-weight: bold;
+        src: url("Fonts/1539032/9ad334ea-1614-418d-ae42-bba67cb79274.ttf") format("truetype");
+    }
+
+    @font-face {
+        font-family: "Proxima Nova";
+        font-weight: bold;
+        font-style: italic;
+        src: url("Fonts/1539034/0b276584-3323-4bc4-9aee-8904888152b6.ttf") format("truetype");
+    }
+
+    @font-face {
+        font-family: "Proxima Nova";
+        src: url("Fonts/1539042/a46943c3-227c-44d3-aa50-e5f87f7cec12.ttf") format("truetype");
+    }
+
+    @font-face {
+        font-family: "Proxima Nova";
+        font-style: italic;
+        src: url("Fonts/1539036/444f52ec-52ac-49e4-883b-acbb542a0f10.ttf") format("truetype");
+    }
