@@ -16,15 +16,13 @@
     src: url(http://bthdonohue.com/klim_fonts/fonts/national/NationalWeb-Light.woff) format('woff');
 }
 
-svg .text{
-    font-family: Fugaz One;
-}
+
 
 body {
     margin: 0;
     background-color: #F8F2E3;
     /*font-family: 'TiemposText', 'Georgia', sans-serif;*/
-    
+
 }
 
 a, a:visited {
