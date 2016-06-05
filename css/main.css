@@ -61,7 +61,8 @@ a, a:visited {
 }
 
 .big h1{
-margin-top: 50px;
+    margin-top: 5%;
+    margin-bottom: 10%;
     font-size: 144px;
 
 }
