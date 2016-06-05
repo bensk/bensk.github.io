@@ -111,6 +111,10 @@ a.block:hover {
 #info {
     background-color: white;
 }
+#title .name{
+    color:black;
+    font-size: 100px !important;
+}
 
 .text_container {
     position: relative;
