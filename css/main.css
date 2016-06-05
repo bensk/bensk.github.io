@@ -28,7 +28,7 @@
 body {
     margin: 0;
     background-color: #F8F2E3;
-    font-family: 'Proxima Nova', 'Georgia', sans-serif;
+    font-family: 'Fugaz One', 'Georgia', sans-serif;
 }
 
 a, a:visited {
@@ -114,10 +114,11 @@ a.block:hover {
 .big{
 	position: relative;
 	text-align: center;
-	vertical-align: middle;
+
 	padding-top: 1%;
 	font-family: "Fugaz One", sans-serif;
 	font-size: 72px;
+
 }
 
 .text {
@@ -134,12 +135,12 @@ a.block:hover {
 }
 
 .name {
-    font-size: 72px;
+    font-size: 60px;
     font-weight: bold;
 }
 
 .tagline {
-    font-size: 48px;
+    font-size: 30px;
     font-family: 'Proxima Nova', sans-serif;
     font-weight: lighter;
     letter-spacing: 1px;
