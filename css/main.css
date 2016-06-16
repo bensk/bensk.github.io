@@ -115,7 +115,7 @@ a.block:hover {
     color:black;
     font-size: 100px !important;
     padding: 0px;
-    font-family: Bungee Shade;
+    font-family: "Bungee Shade";
 }
 
 .text_container {
@@ -212,7 +212,7 @@ a.block:hover {
 
 #pd .name {
 	color: black;
-	font-size: 32px;
+	font-size: 48px;
 }
 
 #pd .tagline{
@@ -235,6 +235,10 @@ a.block:hover {
 
     .tagline {
         font-size: 24px;
+    }
+    
+    #pd .name{
+	    font-size: 32px;
     }
 
 }
