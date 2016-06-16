@@ -28,7 +28,7 @@
 body {
     margin: 0;
     background-color: #F8F2E3;
-    font-family: 'Fugaz One', 'Georgia', sans-serif;
+    font-family: 'Bungee', 'Georgia', sans-serif;
 }
 
 a, a:visited {
@@ -114,6 +114,8 @@ a.block:hover {
 #title .name{
     color:black;
     font-size: 100px !important;
+    padding: 0px;
+    font-family: Bungee Shade;
 }
 
 .text_container {
@@ -210,6 +212,7 @@ a.block:hover {
 
 #pd .name {
 	color: black;
+	font-size: 32px;
 }
 
 #pd .tagline{
