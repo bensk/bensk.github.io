@@ -113,9 +113,10 @@ a.block:hover {
 }
 #title .name{
     color:black;
-    font-size: 100px !important;
+    font-size: 144px !important;
     padding: 0px;
     font-family: "Bungee Shade";
+    width: 100%;
 }
 
 .text_container {
@@ -129,7 +130,7 @@ a.block:hover {
 
 .text {
     position: relative;
-    max-width: 480px;
+/*     max-width: 480px; */
     margin-left: auto;
     margin-right: auto;
     color: white;
@@ -226,6 +227,7 @@ a.block:hover {
 }
 
 @media screen and (max-width: 768px) {
+	 
 	.title{
 		font-size: 64px;
 	}
@@ -240,6 +242,9 @@ a.block:hover {
     #pd .name{
 	    font-size: 32px;
     }
+   #title .name{
+	    font-size: 128px !important;
+}
 
 }
 
@@ -256,4 +261,7 @@ a.block:hover {
         font-size: 18px;
         padding: 25px 25px;
     }
+    #title .name{
+	    font-size: 72px !important;
+}
 }
