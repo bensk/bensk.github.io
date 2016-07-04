@@ -1,0 +1,270 @@
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Fugaz+One|Muli:300,400,300italic,400italic|Montserrat:700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+	<script type="text/javascript" src="/js/bigfoot.js"></script>
+
+	<script type="text/javascript">
+		$.bigfoot();
+	</script>
+
+	<link rel="stylesheet" href="/css/bigfoot.css">
+
+	<link rel="stylesheet" type="text/css" href="http://bsk.education/Fonts/fonts.css">
+
+	<link rel="stylesheet" href="/css/style.css" media="screen" type="text/css" />
+
+
+
+
+
+<title>JavaScript for Teachers</title>
+</head>
+
+<body>
+
+	<style>
+		p {
+			font-size: 1.2em;
+			line-height: 1.4;
+		}
+	</style>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="http://bsk.education/PD/index.html">
+					<img alt="Brand" src="/images/BSK.png" width="24" class="img-circle">
+				</a>
+				<span class="navbar-brand" href="#">Frontend JavaScript</span>
+			</div>
+		</div>
+	</nav>
+
+	<div class="page-header" style="padding-top: 10px;">
+		<h1>Javascript</h1>
+	</div>
+	<div class="container">
+		<div class="col-md-12">
+			<p>To teach my students basic JavaScript, I use the <a href="https://www.codecademy.com/en/tracks/javascript">Codecademy JavaScript modules</a>, along with, you know, a <a href="https://docs.google.com/document/d/1EESMmQvnLOvhuzc2rComv_AapwkppWZI-qw7TeOrFKc/edit?usp=sharing">curriculum.</a>
+				<sup
+				id="fnref:curriculum">
+					<a href="#fn:curriculum" rel="footnote"></a>
+					</sup>
+			</p>
+
+			<p>The Codecademy module leads right into this lovely project:</p>
+
+			<div data-height="505" data-theme-id="2944" data-slug-hash="ytHIL" data-default-tab="null" data-user="bsk" class='codepen'>
+				<pre>
+					<code></code>
+				</pre>
+				<p>See the Pen <a href='http://codepen.io/bsk/pen/ytHIL/'>Technology (Random Colors)</a> by S-K (<a href='http://codepen.io/bsk'>@bsk</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+			</div>
+			<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+			<div class="caption">Press
+				<kbd>RERUN</kbd> a few times. What do you notice?</div>
+
+			<p>Here, I'm going to highlight a few uses of JavaScript.</p>
+
+			<h4>Event Handlers</h4>
+			<p>Event handlers are a piece of JavaScript code that run when something happens on the page, like a click:
+
+				<p data-height="500" data-theme-id="2944" data-slug-hash="ByaGwq" data-default-tab="result" data-user="bsk" class='codepen'>See the Pen <a href='http://codepen.io/bsk/pen/ByaGwq/'>JavaScript Lightbulb</a> by S-K (<a href='http://codepen.io/bsk'>@bsk</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+				<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+				<p>or the mouse hovering over something:</p>
+
+				<div data-height="268" data-theme-id="2944" data-slug-hash="ogBLPE" data-default-tab="null" data-user="bsk" class='codepen'>
+					<pre>
+						<code></code>
+					</pre>
+					<p>See the Pen <a href='http://codepen.io/bsk/pen/ogBLPE/'>Interactive Page (onmouseover)</a> by S-K (<a href='http://codepen.io/bsk'>@bsk</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+				</div>
+				<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+				<p>Here, we use
+					<code>onmouseover</code> to change the color of the navbar, and
+					<code>onclick</code> to toggle the button.<sup id="fnref:button">
+        <a href="#fn:button" rel="footnote"></a>
+   </sup>
+					<div class="footnotes">
+						<ol>
+							<li class="footnote" id="fn:button">
+								<p>Thanks to <a href="http://www.aankit.com">Aankit Patel</a> for creating this demo!<a href="#fnref:button" title="return to article"> ↩</a>
+									<p>
+							</li>
+						</ol>
+					</div>
+
+					<p>So, that's fun, but I want to focus on JavaScript functions. Why? Because they let you do awesome stuff like this → <sup id="fnref:this">
+	        <a href="#fn:this" rel="footnote"></a>
+	   </sup></p>
+
+					<p> <a href="Bootstrap.html">Bootstrap</a> has a whole bunch of JavaScript built it. With a little bit of work, you can make this: </p>
+					<div class="container">
+						<div class="col-md-6 text-center">
+							<a class="btn btn-primary btn-lg" data-toggle="collapse" href="#collapse" aria-expanded="false" aria-controls="collapseExample">
+  I can collapse part of a page!
+</a>
+							<div class="collapse" id="collapse">
+								<br>
+								<div class="alert alert-danger">
+									<p>This is how I displayed the code in the <a href="/CS9/readability-typography/typography.html">Typography lesson.</a></p>
+								</div>
+							</div>
+							<div class="caption">This is the
+								<code>collapse.js</code> plugin. You can find it <a href="http://getbootstrap.com/javascript/#collapse">here</a>.</div>
+						</div>
+
+						<div class="col-md-6 text-center">
+
+							<!-- Button trigger modal -->
+							<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+								I can launch a modal.
+							</button>
+						</div>
+						<div class="caption">This is the
+							<code>modal.js</code> plugin. You can find it <a href="http://getbootstrap.com/javascript/#modals">here</a>.</div>
+					</div>
+					<br>
+					<div class="alert alert-success">
+						<p>If you are beyond the Bootstrap examples, this is a clock, built in
+							<code>JavaScript</code>, where the color is set by the hex # of the time.</p>
+
+
+					</div>
+
+					<div class="col-md-12 text-center">
+						<a class="btn btn-primary btn-lg" data-toggle="collapse" href="#clock" aria-expanded="false" aria-controls="collapseExample">
+  Advanced JavaScript Project
+</a>
+
+
+					</div>
+					<div class="collapse" id="clock" style="padding-top: 30px;">
+						<br>
+						<div class="alert alert-danger">
+							<div data-height="549" data-theme-id="2944" data-slug-hash="yybeVY" data-default-tab="js" data-user="bsk" class='codepen'>
+								<pre>
+									<code>//let&#39;s display the current time var d, h, m, s, color; function displayTime() { d = new Date(); //new data object h = d.getHours(); m = d.getMinutes(); s = d.getSeconds(); //add zero to the left of the numbers if they are single digits if
+										(h &lt;= 9) h = &#39;0&#39; + h; if (m &lt;= 9) m = &#39;0&#39; + m; if (s &lt;= 9) s = &#39;0&#39; + s; color = &quot;#&quot; + h + m + s; //set background color document.body.style.background = color; //set time document.getElementById(&quot;hex&quot;).innerHTML
+										= color; //retrigger the function every second setTimeout(displayTime, 1000); } //call the function displayTime();
+									</code>
+								</pre>
+								<p>See the Pen <a href='http://codepen.io/bsk/pen/yybeVY/'>Color Clock</a> by S-K (<a href='http://codepen.io/bsk'>@bsk</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+							</div>
+							<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+						</div>
+					</div>
+		</div>
+
+
+
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<h4 class="modal-title" id="myModalLabel">Fun fact...</h4>
+					</div>
+					<div class="modal-body">
+						This is not a popup window. It is a
+						<code>div</code> that shows up when you press a button.
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Ok, I get it.</button>
+						<button type="button" class="btn btn-primary">Please don't press this button.</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="footnotes">
+		<ol>
+			<li class="footnote" id="fn:this">
+				<p>Who doesn't love interactive footnotes?<a href="#fnref:this" title="return to article"> ↩</a>
+					<p>
+			</li>
+		</ol>
+	</div>
+
+
+
+	<div class="footnotes">
+		<ol>
+			<li class="footnote" id="fn:curriculum">
+				<p>This is still a work in progress...<a href="#fnref:curriculum" title="return to article"> ↩</a>
+					<p>
+			</li>
+		</ol>
+	</div>
+	</div>
+<div class="container">
+	<div class="col-md-12">
+		<hr>
+		<h4>If you build it...</h3>
+			<p>Today, I'd like you to try to build a functioning website, from scratch at
+				<kbd>username.github.io</kbd>. This is harder than Wix, or Google Sites, but it's also
+				<mark>real</mark>, and more authentically yours than those could possibly be.</p>
+			<p>Try to use our
+				<span style="font-family: Fugaz One; text-transform: uppercase; color: #F94C96;">Principles of design</span>
+
+
+				<div class="container">
+					<ol style="font-size: 24px;">
+						<li>Keep it
+							<mark>simple</mark>
+						</li>
+
+						<li>Use
+							<mark>meaningful</mark> symbolism</li>
+
+						<li>Use 2-3
+							<mark>basic</mark> colors</li>
+
+						<li>
+							<mark>No</mark> lettering or seals</li>
+
+						<li>Be
+							<mark>distinctive</mark>, or be
+							<mark>related</mark>
+						</li>
+					</ol>
+
+					<blockquote>
+						<p style="font-family: Ovo; font-size: 36px;">The marriage of good design and civic pride is something that we need in all places.</p>
+
+						<footer>Roman Mars</footer>
+					</blockquote>
+				</div>
+
+				<p>This year, I decided to put my money where my mouth was, and write a webpage everyday. Some of them were (are) terrible. All of them are open-source, accessible at <a href="https://github.com/223SK/223sk.github.io">my Github account</a>. I also got
+					<em>a lot</em> better at writing code.</p>
+				<p>I got stuck, a lot.</p>
+				<p>I broke things, a lot.</p>
+				<p>I also learned to give a 💩.</p>
+
+				<div class="col-md-12 text-center">Thanks for your time.</p>
+
+			<a href="/index.html">
+				<img src="/images/BSK.png" class="img-responsive, img-circle" width="48px">
+			</a>
+<br>
+</div>
+
+			</div>
