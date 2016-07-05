@@ -1,9 +1,305 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:700,300);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Product+Sans);
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:900);
+
+::selection {
+  background: #FEF790; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #FEF790; /* Gecko Browsers */
+}
+
+.google{
+	font-family: Product Sans;
+	color: #1EB077;
+}
+
+.page-header h1{
+	font-family: Fugaz One;
+  font-size: 72px;
+  text-transform: uppercase;
+  color: #FF4396;
+}
+
+/*Trying to show scrollbar*/
+html {
+    overflow-y: scroll;
+}
+
 body{
-    font-family: "Proxima Nova" !important;
+  font-family: Proxima Nova;
+  font-weight: 400;
+  font-size: 24px;
+  padding-bottom: 70px;
+}
+
+h5{
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+	font-family: Ovo;
+	font-weight: 300;
+	color: #0D141F;
+	font-size: 48px;
+}
+
+h2{
+  font-family: Proxima Nova;
+  font-size: 48px;
+  font-weight: bold;
+  color: #424242;
+  text-align: center;
+  margin-top: 0px;
 }
 
 h3{
-    font-size: 18px;
-    margin: 0;
-    font-weight: bold;
+  font-size: 48px;
+  font-family: Proxima Nova;
+  font-weight: 700;
+  color: #268ED5;
+  text-align: center;
+}
+
+h4{
+	font-family: Proxima Nova;
+	 font-weight: 700;
+	font-size: 36px;
+	text-align: center;
+}
+
+/*
+ol{
+  color: #424242;
+  font-size: 2em;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+*/
+
+
+.caption {
+	font-size: 16px;
+	font-style: italic;
+	color: #828b94;
+	text-align: center;
+}
+
+#lessons p {
+	font-size: 16px;
+	font-weight: 400;
+	font-style: italic;
+	color: #828b94;
+}
+
+
+#review{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#smile {
+
+	font-size: 6px;
+	margin-left: 30px;
+
+}
+
+.highlight {
+	background-color: yellow;
+	border-radius: 3px;
+	text-align: center;
+}
+
+.highlight a{
+	background-color: yellow;
+	border-radius: 3px;
+}
+
+.glyph{
+	text-align: center;
+	font-size: 48px;
+}
+
+.navbar-fixed-bottom{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.econimage{
+	display: block;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top:5px;
+}
+
+/* Wow I was bad at CSS... */
+
+/*
+.container{
+	margin-bottom: -10px;
+}
+*/
+
+#supplydemanddonow{
+	background-image:url("http://content.nike.com/content/dam/one-nike/en_us/season-2014-su/shop/launch/what-the/Lebron_XI_What_The_pair_3qtr_FB.jpg.transform/default/image.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+}
+
+#scarcity{
+	background-image:url("http://content.nike.com/content/dam/one-nike/en_us/season-2014-su/shop/launch/what-the/Lebron_XI_What_The_pair_3qtr_FB.jpg.transform/default/image.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	text-align: center;
+	padding-top: auto;
+	padding-bottom: auto;
+	text-shadow: 1px 1px 12px white;
+}
+
+.jumbotron h1{
+	font-family: Alfa Slab One;
+	font-size: 48px;
+	color: white;
+	text-align: left;
+	text-shadow: 1px 1px 17px #FF4396;
+	margin-left: 5px;
+}
+
+.jumbotron h3{
+	font-family: Alfa Slab One;
+	text-align: right;
+	color: white;
+	text-shadow:1px 1px 17px #1FABF1;
+	margin-top: 240px;
+	margin-right: 5px;
+}
+
+/* Needed to add padding to the columns, not just the body, so that the fixed nav at the bottom doesn't overlay. Smart! */
+/*
+.col-md-3, .col-md-12{
+	padding-bottom: inherit;
+}
+*/
+
+td{
+	font-family: Proxima Nova;
+	font-weight: 300;
+	font-size: 1.3em;
+}
+
+th{
+	font-family: Proxima Nova;
+	font-weight: 400;
+}
+
+dt{
+	font-weight: 700;
+}
+
+dd{
+	font-weight: 100;
+	color: #828b94;
+	font-style: italic;
+	font-size: .8em;
+
+}
+
+.titlecard{
+	height: 768px;
+/* 	display: table;  */
+	overflow: hidden;
+	}
+
+.titlecard h1{
+	text-align: center;
+	padding-top: auto;
+	padding-bottom: auto;
+	text-shadow: 1px 1px 12px white;
+	}
+
+.titlecard p{
+
+	vertical-align: middle;
+	font-family: Quando;
+	font-size: 60px;
+}
+
+.titlecard img{
+	position: absolute;
+	width: 100%;
+	left: 0px;
+    top: 768px;
+    z-index: -1;
+}
+
+#economist h1{
+	font-family: Vollkorn;
+	font-size: 48px;
+	padding: 10px;
+	padding-bottom: 0px;
+	text-align: left;
+	background-color: red;
+	color: white;
+}
+
+li{
+/* 	font-size: 24px; */
+}
+
+strong, b{
+	font-weight: 700;
+}
+.lesson a{
+	font-weight: 700;
+}
+
+.lesson code{
+	font-weight: 400;
+}
+
+mark{
+	background-color: #FEF790;
+	border-radius: 5px;
+	padding-bottom: 1px;
+	padding-top: 1px;
+}
+
+#footer{
+	text-align: center;
+
+}
+
+#gSlides{
+
+	display: inline;
+	padding-bottom: 8px;
+	padding-right: 5px;
+}
+
+.btn-lg{
+	font-size: 30px;
+	font-weight: bold;
+	border-radius: 5px;
+	margin-bottom: 30px;
+	background: #70E6BF;
+	border: none;
+	width: 200px;
+/* 	box-shadow: 1px 1px 10px grey; */
+/* 	font-family: Fugaz One; */
+}
+
+.btn-lg:hover{
+	background: rgba(112, 230, 187, 0.71);
+}
+
+.shade{
+	font-family: "Bungee Shade";
+
 }

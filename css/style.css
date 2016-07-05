@@ -298,3 +298,7 @@ mark{
 .btn-lg:hover{
 	background: rgba(112, 230, 187, 0.71);
 }
+
+.shade{
+	font-family: "Bungee Shade";
+}
