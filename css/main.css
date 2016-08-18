@@ -153,6 +153,11 @@ a.block:hover {
     letter-spacing: 1px;
 }
 
+#AP{
+    background-color: #7F1AE5;
+    background-size: 60%;
+}
+
 #eightgrade {
 /*     background-image: url('../img/8thGrade.svg'); */
     background-color: #E32173;
