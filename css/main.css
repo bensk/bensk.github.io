@@ -27,7 +27,7 @@
 
 body {
     margin: 0;
-    background-color: #F8F2E3;
+    background-color: #FFF3E2;
     font-family: 'Bungee', 'Georgia', sans-serif;
 }
 
@@ -198,14 +198,14 @@ a.block:hover {
 
 #email{
     background-image: url('../img/gmail.svg');
-    background-color: rgb(248, 242, 227);
+    background-color: #FFF3E2;
     background-size: 60%;
     height: 300px;
 }
 
 #pd{
 /*     background-image: url('../img/pd.svg'); */
-    background-color: rgb(248, 242, 227);
+    background-color: #FFF3E2;
     background-size: 60%;
     height: 300px;
 
@@ -227,7 +227,7 @@ a.block:hover {
 }
 
 @media screen and (max-width: 768px) {
-	 
+
 	.title{
 		font-size: 64px;
 	}
@@ -238,7 +238,7 @@ a.block:hover {
     .tagline {
         font-size: 24px;
     }
-    
+
     #pd .name{
 	    font-size: 32px;
     }
