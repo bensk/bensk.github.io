@@ -148,7 +148,8 @@ a.block:hover {
 
 .tagline {
     font-size: 30px;
-    font-family: 'Proxima Nova', sans-serif;
+    font-family: Bungee Outline;
+    /*font-family: 'Proxima Nova', sans-serif;*/
     font-weight: lighter;
     letter-spacing: 1px;
 }
