@@ -36,6 +36,24 @@ a, a:visited {
     text-decoration: none;
 }
 
+.status{
+    text-align: center;
+    background-color:#00acff;
+    color: white;
+
+}
+
+#creo {
+
+    background-color: #FFB12A;
+    color: #434350 ;
+}
+
+#creo .name{
+    font-size: 8vw;
+    color: #434350;
+}
+
 .clearfix:after {
      visibility: hidden;
      display: block;
@@ -113,7 +131,7 @@ a.block:hover {
 }
 #title .name{
     color:black;
-    font-size: 144px !important;
+    font-size: 144px ;
     padding: 0px;
     font-family: "Bungee Shade";
     width: 100%;
@@ -202,6 +220,8 @@ a.block:hover {
     font-size: 72px;
 
 }
+
+
 
 #email{
     background-image: url('../img/gmail.svg');
