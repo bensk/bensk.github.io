@@ -47,6 +47,7 @@ a, a:visited {
 
 #creo .name {
     color: #434350;
+    font-size: 130px;
 }
 
 .clearfix:after {
@@ -276,7 +277,7 @@ a.block:hover {
         font-size: 128px !important;
     }
     #creo .name {
-        font-size: 100px !important;
+        font-size: 128px !important;
     }
 }
 
