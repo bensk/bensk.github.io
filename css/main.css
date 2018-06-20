@@ -171,28 +171,50 @@ a.block:hover {
     letter-spacing: 1px;
 }
 
-#AP{
-    background-color: #7F1AE5;
-    background-size: 60%;
+#AP .name{
+    color: #7F1AE5;
 }
 
-#eightgrade {
+#AP .tagline{
+    color: #7F1AE5;
+}
+
+#eightgrade .name {
 /*     background-image: url('../img/8thGrade.svg'); */
-    background-color: #E32173;
-    background-size: 60%;
+    color: #E32173;
+    /* background-size: 60%; */
 }
 
-#ninthgrade {
+#eightgrade .tagline {
+/*     background-image: url('../img/8thGrade.svg'); */
+    color: #E32173;
+    /* background-size: 60%; */
+}
+
+#ninthgrade .name {
 /*     background-image: url('../img/9thGradeCS.svg'); */
-    background-color: #00C9B6;
-    background-size: 60%;
+    color: #00C9B6;
+    /* background-size: 60%; */
 }
 
-#economics {
+#ninthgrade .tagline{
+    color: #00C9B6;
+}
+
+
+/* #economics { */
 /*     background-image: url('../img/economics.svg'); */
     /*background-color: #EDB538;*/
-    background-color: #800000;
+    /* background-color: #800000;
     background-size: 60%;
+} */
+
+#economics .name {
+    color: #800000;
+}
+
+#economics .tagline{
+    color: #800000;
 }
 
 #github {
@@ -206,10 +228,7 @@ a.block:hover {
     background-size: 60%;
 }
 
-#instapaper {
-    background-image: url('../img/instapaper.svg');
-    background-color: rgb(248, 242, 227);
-}
+
 
 #name{
 
