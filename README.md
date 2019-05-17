@@ -1,6 +1,5 @@
-<!-- # This is a website, right? -->
-
 # Bio
-I teach 8<sup>th</sup>, 9<sup>th</sup>, and 11<sup>th</sup> Grade Computer Science and Economics at [The Laboratory School of Finance and Technology](http://ms223.org). Software Engineering is a required class in our middle school, available to every student, every day.
 
-I am part of the [Software Engineering Pilot](http://sepnyc.org), a DOE program designed to make rigorous technology instruction available to students across New York City.
+I’m the Founder & Head of School at [Creo College Prep](creoprep.org), a startup middle school in the South Bronx. 
+
+Prior to that, I taught Computer Science and Economics to middle and high school students in the South Bronx. 
